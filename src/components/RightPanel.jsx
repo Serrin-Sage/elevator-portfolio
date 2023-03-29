@@ -1,4 +1,4 @@
-function RightPanel() {
+const RightPanel = () => {
   return (
     <div className="elevator-panel">
         RightPanel

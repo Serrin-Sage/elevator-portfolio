@@ -1,6 +1,6 @@
-function LeftPanel() {
+const LeftPanel = () => {
   return (
-    <div className="elevator-panel">
+    <div className="elevator-panel" id="left-panel">
         LeftPanel
     </div>
   )
