@@ -1,15 +1,14 @@
 import { useState } from 'react'
 import './App.css'
 import ElevatorTop from './components/ElevatorTop'
-import LeftPanel from './components/LeftPanel'
-import RightPanel from './components/RightPanel'
+import ElevatorMiddle from './components/ElevatorMiddle'
 
 function App() {
 
   return (
     <div className="App">
       <ElevatorTop />
-      <LeftPanel />
+      <ElevatorMiddle />
     </div>
   )
 }
