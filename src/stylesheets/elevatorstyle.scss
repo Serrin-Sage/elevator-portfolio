@@ -1,6 +1,34 @@
 .elevator-top {
-    border-bottom: solid 2px black;
-    
+    text-align: center;
+    z-index: 10;
+    background: linear-gradient(45deg, rgb(117, 117, 117), rgb(214, 214, 214));
+    border-bottom: solid 2px rgba(0, 0, 0, 0.267);
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.466);
+    .dial-container {
+        position: relative;
+        color: #fff;
+
+        .floor-number {
+            font-size: 30px;
+            font-weight: bold;
+        }
+        #floor-one {
+            position: fixed;
+            top: 10%;
+            left: 10%;   
+        }
+        #floor-two {
+            position: absolute;
+            top: 5%;
+            right: 49.25%;  
+            margin-left: auto;
+            margin-right: auto;
+        }
+        img {
+            margin: 5px;
+            max-height: 180px;
+        }
+    }
 }
 
 
