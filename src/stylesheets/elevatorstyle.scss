@@ -1,4 +1,6 @@
 .elevator-top {
+    display: flex;
+    justify-content: center;
     text-align: center;
     z-index: 10;
     background: linear-gradient(45deg, rgb(117, 117, 117), rgb(214, 214, 214));
@@ -7,26 +9,24 @@
     .dial-container {
         position: relative;
         color: #fff;
-
+        width: 50%;
+        .elevator-dial {
+            margin: 5px;
+            max-height: 180px;
+        }
+        .dial-arrow {
+            position: absolute;
+            max-height: 140px;
+        }
         .floor-number {
             font-size: 30px;
             font-weight: bold;
         }
         #floor-one {
-            position: fixed;
-            top: 10%;
-            left: 10%;   
+            
         }
         #floor-two {
-            position: absolute;
-            top: 5%;
-            right: 49.25%;  
-            margin-left: auto;
-            margin-right: auto;
-        }
-        img {
-            margin: 5px;
-            max-height: 180px;
+            
         }
     }
 }
