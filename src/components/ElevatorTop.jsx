@@ -8,13 +8,13 @@ const ElevatorTop = () => {
           <img src="src\images\DialBlack.png" className="elevator-dial" />
           <img src="src\images\DialArrow.png" className="dial-arrow" id={`floor-${floor}`}/>
           <div className="floor-number" id="number-one">
-            1
+            <div className={floor === "one" ? "active" : "inactive"}>1</div>
           </div>
           <div className="floor-number" id="number-two">
-            2
+            <div className={floor === "two" ? "active" : "inactive"}>2</div>
           </div>
           <div className="floor-number" id="number-three">
-            3
+            <div className={floor === "three" ? "active" : "inactive"}>3</div>
           </div>
         </div>
     </div>
