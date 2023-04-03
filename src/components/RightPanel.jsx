@@ -10,7 +10,6 @@ const RightPanel = () => {
 
   return (
     <div className="elevator-panel" id="right-panel">
-        RightPanel
         <div className="button-container">
           <div className="button-content">
             <div className="button" id="button-one" onClick={() => changeFloorClick("one")}>
