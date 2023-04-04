@@ -93,7 +93,11 @@
             }
         }
     }
+    #left-panel {
+        background: linear-gradient(45deg, rgb(117, 117, 117), rgb(214, 214, 214));
+    }
     #right-panel {
+        background: linear-gradient(45deg, rgb(117, 117, 117), rgb(214, 214, 214));
         display: flex;
         align-items: center;
     }
