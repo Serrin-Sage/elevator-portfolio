@@ -1,6 +1,8 @@
 const MainFloor = () => {
   return (
-    <div>MainFloor</div>
+    <div>
+      
+    </div>
   )
 }
 
