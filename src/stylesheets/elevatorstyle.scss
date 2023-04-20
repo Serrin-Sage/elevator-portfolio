@@ -54,7 +54,7 @@
             top: 65%;
         }
         .active {
-            color: red;
+            color: yellow;
         }
     }
 }
@@ -109,10 +109,10 @@
         }
     }
     #left-panel {
-        background: linear-gradient(45deg, rgb(117, 117, 117), rgb(214, 214, 214));
+        background: linear-gradient(45deg, grey, silver, grey, silver);
     }
     #right-panel {
-        background: linear-gradient(45deg, rgb(117, 117, 117), rgb(214, 214, 214));
+        background: linear-gradient(85deg, grey, silver, grey, silver);
         display: flex;
         align-items: center;
     }
@@ -122,4 +122,10 @@
 .elevator-panel {
     display: flex;
     justify-content: center;
+}
+
+.main-container {
+    background-color: black;
+    min-height: 90vh;
+    width: 80%;
 }
