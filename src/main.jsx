@@ -4,12 +4,14 @@ import App from './App'
 import { configureStore } from '@reduxjs/toolkit'
 import { Provider } from 'react-redux'
 import elevatorFloorSlice from './features/changeFloor'
+import buttonPressSlice from './features/buttonPressed'
 import './index.css'
 import './stylesheets/elevatorstyle.scss'
 
 const store = configureStore({
   reducer: {
-    floor: elevatorFloorSlice
+    floor: elevatorFloorSlice,
+    button: buttonPressSlice
   }
 })
 
