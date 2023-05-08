@@ -1,7 +1,15 @@
-import { useSelector } from "react-redux"
+import { useSelector, useDispatch } from "react-redux"
+import { buttonPress } from "../features/buttonPressed"
 
 const ElevatorTop = () => {
+  const dispatch = useDispatch()
   const floor  = useSelector((state) => state.floor.value.floor)
+  
+  const test = document.querySelector(".dial-arrow")
+  test.addEventListener("transitionend", () => {
+    console.log("DONE")
+    dispatch(buttonPress({ pressed: true}))
+  })
   return (
     <div className="elevator-top">
         <div className="dial-container">
