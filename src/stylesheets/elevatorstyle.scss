@@ -21,6 +21,7 @@
             max-height: 145px;
             z-index: 2;
             transition: 2s;
+            transition-delay: 1.7s;
         }
         #floor-one {
             transform: rotate(-85deg);
@@ -132,12 +133,6 @@
     
 }
 
-// .elevator-panel {
-//     display: flex;
-//     justify-content: center;
-//     z-index: 2;
-// }
-
 .main-container {
     position: relative;
     background-color: black;
@@ -162,7 +157,7 @@
             width: 50%;
             background-color: rgb(80, 80, 80);
             z-index: 1;
-            transition: 0.5s;
+            transition: 1.5s;
         }
         #left-door {
             border-right: solid 2px silver;

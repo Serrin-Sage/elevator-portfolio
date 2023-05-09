@@ -20,12 +20,6 @@ const ElevatorTop = () => {
       })
     }
   }, [dispatch])
-  const test = document.querySelector(".dial-arrow")
-
-  test.addEventListener("transitionend", () => {
-    console.log("DONE")
-    dispatch(buttonPress({ pressed: true}))
-  })
 
   return (
     <div className="elevator-top">
