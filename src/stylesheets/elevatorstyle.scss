@@ -139,10 +139,21 @@
 // }
 
 .main-container {
+    position: relative;
     background-color: black;
     min-height: 90vh;
     width: 80%;
-
+    
+    .main-floor {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: inherit;
+        color: #fff;
+        font-size: 50px;
+    }
     .door-container {
         display: flex;
         height: 100%;

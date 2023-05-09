@@ -1,3 +1,4 @@
+import { useEffect } from "react"
 import { useSelector, useDispatch } from "react-redux"
 import { buttonPress } from "../features/buttonPressed"
 
@@ -5,11 +6,27 @@ const ElevatorTop = () => {
   const dispatch = useDispatch()
   const floor  = useSelector((state) => state.floor.value.floor)
   
+  useEffect(() => {
+    const elevatorDial = document.querySelector(".dial-arrow")
+    elevatorDial.addEventListener("transitionend", () => {
+      console.log("DONE")
+      dispatch(buttonPress({ pressed: true}))
+    })
+
+    return () => {
+      elevatorDial.removeEventListener("transitionend", () => {
+        console.log("DONE")
+        dispatch(buttonPress({ pressed: true }))
+      })
+    }
+  }, [dispatch])
   const test = document.querySelector(".dial-arrow")
+
   test.addEventListener("transitionend", () => {
     console.log("DONE")
     dispatch(buttonPress({ pressed: true}))
   })
+
   return (
     <div className="elevator-top">
         <div className="dial-container">
