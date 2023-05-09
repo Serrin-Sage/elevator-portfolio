@@ -3,7 +3,7 @@ import { useSelector } from "react-redux"
 const ElevatorDoors = () => {
 
   const doorOpen  = useSelector((state) => state.button.value.pressed)
-
+  
   return (
     <div className="door-container">
       <div className="door" id={doorOpen ? "open-left" : "left-door"}>

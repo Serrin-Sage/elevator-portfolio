@@ -2,10 +2,10 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    z-index: 1;
+    z-index: 2;
     background: linear-gradient(45deg, rgb(117, 117, 117), rgb(214, 214, 214));
     border-bottom: solid 2px rgba(0, 0, 0, 0.267);
-    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.466);
+    box-shadow: 0 0 10px 15px rgba(0, 0, 0, 0.466);
     .dial-container {
         position: relative;
         color: #fff;
@@ -20,8 +20,8 @@
             top: 12%;
             max-height: 145px;
             z-index: 2;
-            transition: 2s;
-            transition-delay: 1.7s;
+            transition: 1.4s;
+            transition-delay: 1s;
         }
         #floor-one {
             transform: rotate(-85deg);
@@ -67,7 +67,15 @@
 
         }
         .active {
-            color: yellow;
+            color: rgb(231, 214, 127);
+            text-shadow: 0 0 7px #fff,
+            0 0 10px #fff,
+            0 0 21px #fff,
+            0 0 42px rgb(229, 255, 0),
+            0 0 82px rgb(229, 255, 0),
+            0 0 92px rgb(229, 255, 0),
+            0 0 102px rgb(229, 255, 0),
+            0 0 151px rgb(229, 255, 0);
         }
     }
 }
@@ -124,6 +132,7 @@
     }
     #left-panel {
         background: linear-gradient(45deg, grey, silver, grey, silver);
+        box-shadow: 0 10px 10px 0 black;
     }
     #right-panel {
         background: linear-gradient(85deg, grey, silver, grey, silver);
@@ -153,24 +162,27 @@
         display: flex;
         height: 100%;
         .door {
+            z-index: 1;
             height: inherit;
             width: 50%;
-            background-color: rgb(80, 80, 80);
-            z-index: 1;
-            transition: 1.5s;
+            background: linear-gradient(silver, grey, silver, darkgrey, silver, grey);
+            transition: 0.8s;
         }
         #left-door {
-            border-right: solid 2px silver;
+            border-right: solid 2px rgb(0, 0, 0);
+            box-shadow:  inset 15px 10px 25px 1px rgba(50, 50, 50, 0.75);
         }
         #right-door {
-            border-left: solid 2px silver;
+            border-left: solid 2px rgb(0, 0, 0);
+            box-shadow:  inset -15px 10px 25px 1px rgba(50, 50, 50, 0.75);
         }
         #open-left {
             transform: translateX(-95%);
+            box-shadow:  inset 15px 7px 10px 1px rgba(50, 50, 50, 0.75);
         }
         #open-right {
             transform: translateX(95%);
-            
+            box-shadow:  inset -15px 10px 25px 1px rgba(50, 50, 50, 0.75);
         }
     }
 }

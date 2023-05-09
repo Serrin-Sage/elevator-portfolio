@@ -19,7 +19,7 @@ const RightPanel = () => {
               Contact
             </div>
             <div className="button" id="button-three" onClick={() => changeFloorClick("three")}>
-              Portfolio
+              Projects
             </div>
             <div className="button" id="button-two" onClick={() => changeFloorClick("two")}>
               About
