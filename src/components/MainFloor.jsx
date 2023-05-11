@@ -1,13 +1,24 @@
 import React from 'react'
+import skills from '../features/skills.json'
 
 function MainFloor() {
+  
+  console.log(skills)
+
   return (
-    <div>
-      <div>
-        <h1 className="main-title">{"< Serrin Doscher />"}</h1>
-        <div className="main-subtitles">
-            <p className="left-subtitle">Software Engineer</p>
-            <p className="right-subtitle">Frontend Developer</p>
+    <div className='main-container'>
+      <div className='main-content'>
+        <h1>Serrin Doscher</h1>
+        <div className='skills-column'>
+          {
+            skills.map((skill) => {
+              return (
+                <div key={skill.id}>
+                  <img src={skill.icon} className='skill-icon'/>
+                </div>
+              )
+            })
+          }
         </div>
       </div>
     </div>

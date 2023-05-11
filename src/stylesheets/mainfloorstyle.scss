@@ -1,0 +1,22 @@
+.main-container {
+    background-image: url('src/images/71pQ0dPL72L._AC_UL400_.jpg');
+    min-height: inherit;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .main-content {
+        background-color: rgb(109, 68, 35);
+        background: linear-gradient(#DBB25E, #907335);
+        height: fit-content;
+        .skills-column {
+            display: flex;
+            justify-content: space-evenly;
+            max-width: 100%;
+            flex-wrap: wrap;
+            .skill-icon {
+                height: 50px;
+            }
+        }
+    }
+}

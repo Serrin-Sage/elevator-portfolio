@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1, 
+    "name": "JavaScript",
+    "icon": "src/images/JavaScriptIcon.png"
+  },
+  {
+    "id": 2,
+    "name": "HTML",
+    "icon": "src/images/HTMLicon-removebg-preview.png"
+  },
+  {
+    "id": 3,
+    "name": "CSS",
+    "icon": "src/images/CSSicon.png"
+  },
+  {
+    "id": 4,
+    "name": "SCSS",
+    "icon": "src/images/SCSSicon.png"
+  },
+  {
+    "id": 5,
+    "name": "React",
+    "icon": "src/images/Reacticon.png"
+  },
+  {
+    "id": 6,
+    "name": "Redux",
+    "icon": "src/images/Reduxicon.png"
+  }
+]

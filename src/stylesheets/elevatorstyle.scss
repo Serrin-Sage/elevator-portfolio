@@ -86,7 +86,7 @@
     justify-content: space-between;
     .elevator-panel {
         width: 18%;
-        min-height: 90vh;
+        min-height: 80vh;
         display: flex;
         justify-content: center;
         z-index: 2;
@@ -142,13 +142,13 @@
     
 }
 
-.main-container {
+.center-container {
     position: relative;
     background-color: black;
-    min-height: 90vh;
+    min-height: 80vh;
     width: 80%;
     
-    .main-floor {
+    .center-floor {
         position: absolute;
         display: flex;
         justify-content: center;

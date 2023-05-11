@@ -7,6 +7,7 @@ import elevatorFloorSlice from './features/changeFloor'
 import buttonPressSlice from './features/buttonPressed'
 import './index.css'
 import './stylesheets/elevatorstyle.scss'
+import './stylesheets/mainfloorstyle.scss'
 
 const store = configureStore({
   reducer: {

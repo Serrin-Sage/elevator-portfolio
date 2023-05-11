@@ -38,8 +38,8 @@ const ElevatorCenter = () => {
   }, [selectedFloor])
 
   return (
-    <div className="main-container">
-      <div className="main-floor">
+    <div className="center-container">
+      <div className="center-floor">
        {
         floorContent
        }
