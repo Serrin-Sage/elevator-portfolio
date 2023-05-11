@@ -3,8 +3,13 @@
     justify-content: center;
     text-align: center;
     z-index: 2;
-    background: linear-gradient(45deg, rgb(117, 117, 117), rgb(214, 214, 214));
-    border-bottom: solid 2px rgba(0, 0, 0, 0.267);
+    background: linear-gradient(45deg, rgb(75, 75, 75) 10%, rgb(78, 78, 78) 20%, rgb(97, 97, 97) 30%,rgb(75, 75, 75));
+    border-style: solid;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-width: 4px;
+    border-image: repeating-linear-gradient(60deg, #e8c565, #e8c565 6px, #dbb015 8px, #e0b643 10px) 100;
     box-shadow: 0 0 10px 15px rgba(0, 0, 0, 0.466);
     .dial-container {
         position: relative;
@@ -20,8 +25,8 @@
             top: 12%;
             max-height: 145px;
             z-index: 2;
-            transition: 1.4s;
-            transition-delay: 1s;
+            transition: 1.2s;
+            transition-delay: 0.8s;
         }
         #floor-one {
             transform: rotate(-85deg);
@@ -92,18 +97,25 @@
         z-index: 2;
         
         .button-container {
-            border: solid 2px rgba(0, 0, 0, 0.075);
+            position: relative;
             margin: 5px;
             padding: 8px;
-
+            border: 2px solid transparent;
+            border-radius: 10px;
+            background-color: black;
+            background-clip: padding-box;
+            
             .button-content {
+                position: relative;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 margin: 10px;
                 padding: 10px;
-                border: solid 2px rgba(0, 0, 0, 0.075);
+                border: 2px solid transparent;
                 border-radius: 10px;
+                background-color: rgb(24, 71, 141);
+                background-clip: padding-box;
                 box-shadow: 6px 6px 10px 2px rgba(0, 0, 0, 0.37);
                 
                 .button {
@@ -129,13 +141,31 @@
                 }
             }
         }
+        .button-container::after {
+            content: '';
+            position: absolute;
+            top: -4px; bottom: -4px;
+            left: -4px; right: -4px;
+            background: repeating-linear-gradient(60deg, #e8c565, #e8c565 6px, #dbb015 8px, #e0b643 10px);
+            z-index: -3;
+            border-radius: 10px;
+        }
+        .button-content::after {
+            content: '';
+            position: absolute;
+            top: -4px; bottom: -4px;
+            left: -4px; right: -4px;
+            background: repeating-linear-gradient(60deg, #e8c565, #e8c565 6px, #dbb015 8px, #e0b643 10px);
+            z-index: -1;
+            border-radius: 10px;
+        }
     }
     #left-panel {
-        background: linear-gradient(45deg, grey, silver, grey, silver);
+        background: linear-gradient(45deg, rgb(0, 0, 0), rgb(58, 58, 58), rgb(0, 0, 0), rgb(54, 54, 54));
         box-shadow: 0 10px 10px 0 black;
     }
     #right-panel {
-        background: linear-gradient(85deg, grey, silver, grey, silver);
+        background: linear-gradient(85deg, rgb(44, 44, 44) 10%, rgb(78, 78, 78) 20%, rgb(97, 97, 97) 30%,rgb(46, 46, 46));
         display: flex;
         align-items: center;
     }
@@ -166,7 +196,7 @@
             height: inherit;
             width: 50%;
             background: linear-gradient(silver, grey, silver, darkgrey, silver, grey);
-            transition: 0.8s;
+            transition: 0.6s;
         }
         #left-door {
             border-right: solid 2px rgb(0, 0, 0);
