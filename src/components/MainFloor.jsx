@@ -8,13 +8,13 @@ function MainFloor() {
   return (
     <div className='main-container'>
       <div className='main-content'>
-        <h1>Serrin Doscher</h1>
+        <h2>Serrin Doscher</h2>
         <div className='skills-column'>
           {
             skills.map((skill) => {
               return (
-                <div key={skill.id}>
-                  <img src={skill.icon} className='skill-icon'/>
+                <div key={skill.id} className='skill-icon-container'>
+                  <img src={skill.icon} className='skill-icon-image'/>
                 </div>
               )
             })

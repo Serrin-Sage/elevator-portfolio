@@ -6,17 +6,31 @@
     justify-content: center;
     align-items: center;
     .main-content {
-        background-color: rgb(109, 68, 35);
-        background: linear-gradient(#DBB25E, #907335);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         height: fit-content;
+        width: 60%;
+        // background: linear-gradient(#DBB25E, #907335);
+        background: linear-gradient(rgb(68, 64, 64), rgb(116, 114, 114)) padding-box,
+        linear-gradient(to bottom, var(--lightgold), var(--darkgold), var(--lightgold), var(--darkgold)) border-box;
+        border-radius: 15px;
+        border: 8px solid transparent;
+        
         .skills-column {
             display: flex;
             justify-content: space-evenly;
-            max-width: 100%;
+            max-width: 50%;
             flex-wrap: wrap;
-            .skill-icon {
-                height: 50px;
+            .skill-icon-container {
+                margin: 1rem;
+                .skill-icon-image {
+                    height: 50px;
+                }
             }
         }
+    }
+    .main-content::after {
+
     }
 }

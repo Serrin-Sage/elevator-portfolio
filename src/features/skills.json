@@ -28,5 +28,40 @@
     "id": 6,
     "name": "Redux",
     "icon": "src/images/Reduxicon.png"
+  },
+  {
+    "id": 7,
+    "name": "C++",
+    "icon": "src/images/C++Icon.png"
+  },
+  {
+    "id": 8,
+    "name": "Ruby",
+    "icon": "src/images/Rubyicon.png"
+  },
+  {
+    "id": 9,
+    "name": "Ruby on Rails",
+    "icon": "src/images/Railsicon.png"
+  },
+  {
+    "id": 10,
+    "name": "Python",
+    "icon": "src/images/Pythonicon.png"
+  },
+  {
+    "id": 11,
+    "name": "Django",
+    "icon": "src/images/Djangoicon.png"
+  },
+  {
+    "id": 12,
+    "name": "Flask",
+    "icon": "src/images/Flaskicon.png"
+  },
+  {
+    "id": 13,
+    "name": "PostgreSQL",
+    "icon": "src/images/Postgresicon.png"
   }
 ]
