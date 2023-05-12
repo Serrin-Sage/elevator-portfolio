@@ -9,6 +9,7 @@ import './index.css'
 import './stylesheets/elevatorstyle.scss'
 import './stylesheets/mainfloorstyle.scss'
 import './stylesheets/aboutstyle.scss'
+import './stylesheets/contactstyle.scss'
 
 const store = configureStore({
   reducer: {

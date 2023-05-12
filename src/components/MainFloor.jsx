@@ -1,13 +1,8 @@
 import SkillCard from './SkillCard'
 import skills from '../features/skills.json'
-import { saveAs } from 'file-saver'
-
+import ResumePDF from '/Resume 2023.pdf'
 function MainFloor() {
 
-  const downloadResume = () => {
-    const pdfBlob = new Blob(["public/Resume 2023.pdf"], { type: "application/pdf" });
-    saveAs(pdfBlob, "SerrinDoscherResume.pdf");
-  }
   return (
     <div className='main-container'>
       <div className='main-content'>
@@ -26,7 +21,9 @@ function MainFloor() {
           }
         </div>
         <div className='resume-container'>
-          <button onClick={downloadResume}>Download Resume</button>
+          <a href={ResumePDF}  download="Serrin Doscher Resume">
+            <button> Download Resume </button>
+          </a>
         </div>
       </div>
     </div>
