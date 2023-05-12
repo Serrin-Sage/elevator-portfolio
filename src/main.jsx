@@ -8,6 +8,7 @@ import buttonPressSlice from './features/buttonPressed'
 import './index.css'
 import './stylesheets/elevatorstyle.scss'
 import './stylesheets/mainfloorstyle.scss'
+import './stylesheets/aboutstyle.scss'
 
 const store = configureStore({
   reducer: {
