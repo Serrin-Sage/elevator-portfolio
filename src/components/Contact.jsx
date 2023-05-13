@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom"
+import { useState } from "react"
 
 const Contact = () => {
+  const [phoneText, setPhoneText] = useState("Mobile Number")
 
   const MaillButton = ({ mailto, label}) => {
     return (
@@ -18,8 +20,8 @@ const Contact = () => {
     <div className="contact-container">
       <div className="contact-frame">
         <div className="contact-content">
-          <div id="phone-container">
-            <img src="src\images\mobile-phone.png" alt="Phone Icon"/> 347 - 907 - 3607
+          <div id="phone-container" onMouseOver={() => setPhoneText("347-907-3607")} onMouseOut={() => setPhoneText("Mobile Number")}>
+            <img src="src\images\mobile-phone.png" alt="Phone Icon"/> <span className="phone-text">{phoneText}</span>
           </div>
           <div className="email-container">
             <img src="src\images\email.png" alt="Email Icon"/> <MaillButton label="Email" mailto="mailto:serrinsage@gmail.com"/>

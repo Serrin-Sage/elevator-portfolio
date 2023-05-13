@@ -12,10 +12,10 @@
     .contact-frame {
         position: relative;
         padding: 2rem 3rem 2rem 3rem;
-        border-top: solid 8px #c69781;
-        border-right: solid 8px #aa6442;
-        border-bottom: solid 8px #934c29;
-        border-left: solid 8px #aa6442;
+        border-top: solid 14px #c69781;
+        border-right: solid 14px #aa6442;
+        border-bottom: solid 14px #934c29;
+        border-left: solid 14px #aa6442;
         background-image: repeating-linear-gradient(to right, #8d4623, #a0522d 10%);
         .contact-content {
             background: linear-gradient(rgb(68, 64, 64), rgb(0, 0, 0)) padding-box,
@@ -25,9 +25,14 @@
             z-index: 2;
 
             #phone-container {
-                transition: none;
-                transform: scale(1);
-                box-shadow: none;
+                text-decoration: none;
+                color: rgba(255, 255, 255, 0.3);
+                text-shadow: 0 0px 0px rgba(255, 255, 255, 0.5);
+                transition: 0.2s;
+
+                .phone-text {
+                    transition: all 3s ease;
+                }
             }
             div {
                 display: flex;
@@ -46,19 +51,6 @@
                     color: rgba(255, 255, 255, 0.3);
                     text-shadow: 0 0px 0px rgba(255, 255, 255, 0.5);
                 }
-                // a {
-                //     background: #222 -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff)) 0 0 no-repeat;
-                //     background-size: 150;
-                //     -webkit-background-size: 150px;
-                //     background-clip: text;
-                //     -webkit-background-clip: text;
-                //     animation-name: shine;
-                //     -webkit-animation-name: shine;
-                //     animation-duration: 2s;
-                //     -webkit-animation-duration: 2s;
-                //     animation-fill-mode: forwards;
-                    
-                // }
             }
             div:hover {
                 transform: scale(1.06);
