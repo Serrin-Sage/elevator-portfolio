@@ -2,66 +2,71 @@
   {
     "id": 1, 
     "name": "JavaScript",
-    "icon": "src/images/JavaScriptIcon.png"
+    "icon": "src/images/icons/JavaScriptIconW.png"
   },
   {
     "id": 2,
     "name": "HTML",
-    "icon": "src/images/HTMLicon-removebg-preview.png"
+    "icon": "src/images/icons/HTMLicon-removebg-previewW.png"
   },
   {
     "id": 3,
     "name": "CSS",
-    "icon": "src/images/CSSicon.png"
+    "icon": "src/images/icons/CSSiconW.png"
   },
   {
     "id": 4,
     "name": "SCSS",
-    "icon": "src/images/SCSSicon.png"
+    "icon": "src/images/icons/SCSSiconW.png"
   },
   {
     "id": 5,
     "name": "React",
-    "icon": "src/images/Reacticon.png"
+    "icon": "src/images/icons/ReacticonW.png"
   },
   {
     "id": 6,
     "name": "Redux",
-    "icon": "src/images/Reduxicon.png"
+    "icon": "src/images/icons/ReduxiconW.png"
   },
   {
     "id": 7,
     "name": "C++",
-    "icon": "src/images/C++Icon.png"
+    "icon": "src/images/icons/C++IconW.png"
   },
   {
     "id": 8,
     "name": "Ruby",
-    "icon": "src/images/Rubyicon.png"
+    "icon": "src/images/icons/RubyiconW.png"
   },
   {
     "id": 9,
     "name": "Ruby on Rails",
-    "icon": "src/images/Railsicon.png"
+    "icon": "src/images/icons/RailsiconW.png"
   },
   {
     "id": 10,
     "name": "Python",
-    "icon": "src/images/Pythonicon.png"
+    "icon": "src/images/icons/PythoniconW.png"
   },
   {
     "id": 11,
     "name": "Django",
-    "icon": "src/images/Djangoicon.png"
+    "icon": "src/images/icons/DjangoiconW.png"
   },
   {
     "id": 12,
     "name": "Flask",
-    "icon": "src/images/Flaskicon.png"
+    "icon": "src/images/icons/FlaskiconW.png"
   },
   {
     "id": 13,
     "name": "PostgreSQL",
-    "icon": "src/images/Postgresicon.png"
+    "icon": "src/images/icons/PostgresiconW.png"
+  },
+  {
+    "id": 14,
+    "name": "Git",
+    "icon": "src/images/icons/GiticonW.png"
   }
 ]

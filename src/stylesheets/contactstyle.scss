@@ -38,6 +38,7 @@
                 display: flex;
                 align-items: center;
                 margin: 10px;
+                padding: 0 10px 0 10px;
                 color: rgb(187, 187, 187);
                 transition: 0.2s;
                 img {
@@ -67,8 +68,8 @@
                     -webkit-background-clip: text;
                     animation-name: shine;
                     -webkit-animation-name: shine;
-                    animation-duration: 2s;
-                    -webkit-animation-duration: 2s;
+                    animation-duration: 3s;
+                    -webkit-animation-duration: 3s;
                     animation-fill-mode: forwards;
                     
                 }
