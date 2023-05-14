@@ -6,7 +6,11 @@ const ProjectCard = ({ project, width }) =>  {
             <div className="project-text">
                 <div>{project.title}</div>
                 <p className="project-description">{project.description}</p>
-                <div>{project.tech}</div>
+                <div>Technology Used: {project.tech}</div>
+                <div className="project-links">
+                    Demo: {project.demo_url}
+                    Github: <a href={project.frontend_url}>Github</a>
+                </div>
             </div>
         </div>
     </div>
