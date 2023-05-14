@@ -11,6 +11,7 @@ import './stylesheets/elevatorstyle.scss'
 import './stylesheets/mainfloorstyle.scss'
 import './stylesheets/aboutstyle.scss'
 import './stylesheets/contactstyle.scss'
+import './stylesheets/portfoliostyle.scss'
 
 const store = configureStore({
   reducer: {

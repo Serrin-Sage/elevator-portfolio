@@ -1,6 +1,10 @@
+import Carousel from "./Carousel"
+
 const Portfolio = () => {
   return (
-    <div>Portfolio</div>
+    <div className="portfolio-container">
+      <Carousel />
+    </div>
   )
 }
 

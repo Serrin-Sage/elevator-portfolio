@@ -1,0 +1,43 @@
+.portfolio-container {
+    background-image: url('src/images/DarkGold.png');
+    background-size: 800px;
+    min-height: inherit;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel {
+    overflow: hidden;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .inner-items {
+        white-space: nowrap;
+        transition: transform 0.3s;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.075);
+
+        .project-item {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 650px;
+            background-color: #633a3a;
+            // margin: 0 1rem 0 1rem;
+
+            .project-cotent {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 80%;
+                border: solid 2px red;
+            }
+        }
+    }
+}
