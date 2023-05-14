@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "Virtual Gameboy",
+        "image": "src/images/VirtualGameboy.png",
+        "description": "This is a virtual gameboy that you can play the game Snake on.",
+        "tech": "React.js, Redux, and SCSS",
+        "demo-url": "",
+        "frontend-url": "",
+        "backend-url": ""
+    },
+    {
+        "id": 2,
+        "title": "Flatiron Game Center",
+        "image": "",
+        "description": "",
+        "tech": "",
+        "demo-url": "",
+        "frontend-url": "",
+        "backend-url": ""
+    },
+    {
+        "id": 3,
+        "title": "POS System",
+        "image": "",
+        "description": "",
+        "tech": "",
+        "demo-url": "",
+        "frontend-url": "",
+        "backend-url": ""
+    }
+]

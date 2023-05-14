@@ -1,29 +1,9 @@
 import { useState } from "react"
+import projects from '../features/projects.json'
 import ProjectCard from "./ProjectCard"
 
 const Carousel = () => {
   const [activeIndex, setActiveIndex] = useState(0)
-
-  const projects = [
-    {
-        "id": 1,
-        "title": "TEST 1",
-        "description": "BLAH BLAH",
-        "tech": "React.js", 
-    },
-    {
-        "id": 2,
-        "title": "TEST 2",
-        "description": "YADA YADA",
-        "tech": "Ruby on Rails"
-    },
-    {
-        "id": 3,
-        "title": "TEST 3",
-        "description": "HUH?",
-        "tech": "NONE"
-    }
-  ]
 
   const updateIndex = (newIndex) => {
     if (newIndex < 0) {
