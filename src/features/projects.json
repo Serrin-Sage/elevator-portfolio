@@ -2,7 +2,9 @@
     {
         "id": 1,
         "title": "Virtual Gameboy",
-        "image": "src/images/VirtualGameboy.png",
+        "images": [
+            {"url": "src/images/project_images/VirtualGameboy.png"}
+        ],
         "description": "This is a virtual gameboy that the user can play the game Snake on.",
         "tech": "React.js, Redux, and SCSS",
         "demo_url": "",
@@ -12,21 +14,21 @@
     {
         "id": 2,
         "title": "Flatiron Game Center",
-        "image": "src/images/FlatironGameCenter.png",
+        "images": "src/images/FlatironGameCenter.png",
         "description": "FGC is an website that allows instructors to give students merits.",
         "tech": "React.js, Redux, CSS, Ruby on Rails, PostgreSQL",
-        "demo-url": "",
-        "frontend-url": "",
-        "backend-url": ""
+        "demo_url": "",
+        "frontend_url": "https://github.com/Serrin-Sage/fgc_immortals",
+        "backend_url": "https://github.com/Serrin-Sage/fgc_immortals_backend"
     },
     {
         "id": 3,
         "title": "POS System",
-        "image": "src/images/PLACEHOLDER.png",
+        "images": "src/images/PLACEHOLDER.png",
         "description": "This is a POS system designed for a Ramen Restaurant.",
-        "tech": "",
-        "demo-url": "",
-        "frontend-url": "",
-        "backend-url": ""
+        "tech": "React.js, CSS, Flask, Python",
+        "demo_url": "",
+        "frontend_url": "https://github.com/Serrin-Sage/hackathon-team4-frontend",
+        "backend_url": "https://github.com/helenperham/hackathon-team4-backend"
     }
 ]
