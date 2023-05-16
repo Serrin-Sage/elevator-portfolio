@@ -3,7 +3,10 @@
         "id": 1,
         "title": "Virtual Gameboy",
         "images": [
-            {"url": "src/images/project_images/VirtualGameboy.png"}
+            {"url": "src/images/project_images/VirtualGameboy.png"},
+            {"url": "src/images/project_images/VirtualGameboyPlaying.png"},
+            {"url": "src/images/project_images/VirtualGameboyGameOver.png"},
+            {"url": "src/images/project_images/VirtualGameboyRed.png"}
         ],
         "description": "This is a virtual gameboy that the user can play the game Snake on.",
         "tech": "React.js, Redux, and SCSS",

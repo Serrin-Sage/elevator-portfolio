@@ -30,8 +30,34 @@
             
             align-items: center;
             height: 650px;
-            // background-color: #000000;
-
+            .left-arrow {
+                position: absolute;
+                top: 33%;
+                transform: translateX(10px);
+                height: 30px;
+                width: 30px;
+                text-align: center;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 25px;
+                font-weight: bold;
+                border: solid 2px rgb(221, 221, 221);
+                border-radius: 50%;
+                cursor: pointer;
+            }
+            .right-arrow {
+                position: absolute;
+                top: 33%;
+                transform: translateX(585px);
+                height: 30px;
+                width: 30px;
+                text-align: center;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 25px;
+                font-weight: bold;
+                border: solid 2px rgb(221, 221, 221);
+                border-radius: 50%;
+                cursor: pointer;
+            }
             .project-cotent {
                 display: flex;
                 flex-direction: column;

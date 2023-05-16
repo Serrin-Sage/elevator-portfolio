@@ -1,8 +1,10 @@
+import ImageSlider from "./ImageSlider"
+
 const ProjectCard = ({ project, width }) =>  {
   return (
     <div className="project-item" style={{ width: width }}>
         <div className="project-cotent">
-            <img src={project.images} />
+            <ImageSlider slides={project.images}/>
             <div className="project-text">
                 <div className="project-title">{project.title}</div>
                 <p className="project-description">{project.description}</p>
