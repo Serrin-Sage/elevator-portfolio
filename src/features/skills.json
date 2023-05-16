@@ -68,5 +68,10 @@
     "id": 14,
     "name": "Git",
     "icon": "src/images/icons/GiticonW.png"
+  },
+  {
+    "id": 15,
+    "name": "VS Code",
+    "icon": "src/images/icons/VSCodeIcon.png"
   }
 ]

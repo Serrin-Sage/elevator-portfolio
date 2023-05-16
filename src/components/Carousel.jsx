@@ -29,8 +29,8 @@ const Carousel = () => {
             <button onClick={() => updateIndex(activeIndex - 1)}>PREVIOUS</button>
           </div>
           <div>
-            <img src={"src/images/icons/NextSymbolB.png"}/>
             <button onClick={() => updateIndex(activeIndex + 1)}>NEXT</button>
+            <img src={"src/images/icons/NextSymbolB.png"}/>
           </div>
         </div>
     </div>

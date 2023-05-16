@@ -12,9 +12,9 @@
     {
         "id": 2,
         "title": "Flatiron Game Center",
-        "image": "src/images/PLACEHOLDER.png",
+        "image": "src/images/FlatironGameCenter.png",
         "description": "FGC is an website that allows instructors to give students merits.",
-        "tech": "",
+        "tech": "React.js, Redux, CSS, Ruby on Rails, PostgreSQL",
         "demo-url": "",
         "frontend-url": "",
         "backend-url": ""
