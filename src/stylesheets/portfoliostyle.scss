@@ -71,7 +71,7 @@
             }
             .arrow-icon {
                 height: 35px;
-                opacity: 0.6;
+                opacity: 0.5;
                 transition: 0.2s;
             }
             .arrow-icon:hover {
@@ -107,7 +107,7 @@
                     align-items: center;
                     padding: 5px;
                     max-width: 600px;
-                    // word-wrap: break-word;
+                    word-wrap: break-word;
                     text-align: center;
                     color: black;
                     font-weight: bold;
