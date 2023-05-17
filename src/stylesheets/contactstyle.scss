@@ -29,10 +29,18 @@
                 color: rgba(255, 255, 255, 0.3);
                 text-shadow: 0 0px 0px rgba(255, 255, 255, 0.5);
                 transition: 0.2s;
-
-                .phone-text {
-                    transition: all 3s ease;
-                }
+            }
+            #phone-container:hover {
+                background: #222 -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff)) 0 0 no-repeat;
+                    background-size: 150;
+                    -webkit-background-size: 150px;
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    animation-name: shine;
+                    -webkit-animation-name: shine;
+                    animation-duration: 3s;
+                    -webkit-animation-duration: 3s;
+                    animation-fill-mode: forwards;
             }
             div {
                 display: flex;

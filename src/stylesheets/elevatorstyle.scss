@@ -131,13 +131,15 @@
         }
     }
     #left-panel {
-        background: linear-gradient(45deg, grey, silver, grey, silver);
         box-shadow: 0 10px 10px 0 black;
+        border-radius: 0 5px 5px 0;
+        background: linear-gradient(45deg, grey, silver, grey, silver);
     }
     #right-panel {
-        background: linear-gradient(85deg, grey, silver, grey, silver);
         display: flex;
         align-items: center;
+        border-radius: 5px 0 0 5px;
+        background: linear-gradient(85deg, grey, silver, grey, silver);
     }
     
 }

@@ -20,8 +20,8 @@ const Contact = () => {
     <div className="contact-container">
       <div className="contact-frame">
         <div className="contact-content">
-          <div id="phone-container" onMouseOver={() => setPhoneText("347-907-3607")} onMouseOut={() => setPhoneText("Mobile Number")}>
-            <img src="src\images\mobile-phone.png" alt="Phone Icon"/> <span className="phone-text">{phoneText}</span>
+          <div id="phone-container" >
+            <img src="src\images\mobile-phone.png" alt="Phone Icon"/> <span className="phone-text">347-907-3607</span>
           </div>
           <div className="email-container">
             <img src="src\images\email.png" alt="Email Icon"/> <MaillButton label="Email" mailto="mailto:serrinsage@gmail.com"/>

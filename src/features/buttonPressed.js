@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit'
 
 export const buttonPressSlice = createSlice({
     name: "buttons",
-    initialState: { value: {pressed: true}},
+    initialState: { value: {pressed: false}},
     reducers: {
         buttonPress: (state, action) => {
             state.value = action.payload
