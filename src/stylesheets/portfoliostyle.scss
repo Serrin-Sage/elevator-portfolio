@@ -30,7 +30,11 @@
             
             align-items: center;
             height: 650px;
+            
             .left-arrow {
+                display: flex;
+                align-items: center;
+                // justify-content: center;
                 position: absolute;
                 top: 33%;
                 transform: translateX(10px);
@@ -40,11 +44,16 @@
                 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                 font-size: 25px;
                 font-weight: bold;
-                border: solid 2px rgb(221, 221, 221);
-                border-radius: 50%;
+                transition: 0.2s;
                 cursor: pointer;
             }
+            .left-arrow:active {
+                transform: translateX(5px);
+            }
             .right-arrow {
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 position: absolute;
                 top: 33%;
                 transform: translateX(585px);
@@ -54,13 +63,30 @@
                 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                 font-size: 25px;
                 font-weight: bold;
-                border: solid 2px rgb(221, 221, 221);
-                border-radius: 50%;
+                transition: 0.2s;
                 cursor: pointer;
             }
+            .right-arrow:active {
+                transform: translateX(590px);
+            }
+            .arrow-icon {
+                height: 35px;
+                opacity: 0.6;
+                transition: 0.2s;
+            }
+            .arrow-icon:hover {
+                opacity: 1;
+            }
+            
+            .hide-arrow {
+                position: absolute;
+                display: none;
+            }
+            
             .project-cotent {
                 display: flex;
                 flex-direction: column;
+                align-items: center;
                 padding: 1.5rem;
                 font-size: 19px;
                 border-top: solid 14px #c69781;
@@ -69,7 +95,7 @@
                 border-left: solid 14px #aa6442;
                 background: linear-gradient(to bottom, var(--lightgold), var(--darkgold), var(--lightgold), var(--darkgold));
 
-                img {
+                .project-images {
                     height: 350px;
                     border: solid 4px black;
                     margin-bottom: 1rem;
@@ -79,8 +105,9 @@
                     flex-direction: column;
                     flex-wrap: wrap;
                     align-items: center;
+                    padding: 5px;
                     max-width: 600px;
-                    word-wrap: break-word;
+                    // word-wrap: break-word;
                     text-align: center;
                     color: black;
                     font-weight: bold;

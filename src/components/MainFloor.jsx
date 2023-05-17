@@ -16,7 +16,7 @@ function MainFloor() {
             {
               skills.map((skill) => {
                 return (
-                  <SkillCard skill={skill} />
+                  <SkillCard key={skill.id} skill={skill} />
                 )
               })
             }

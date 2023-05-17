@@ -8,7 +8,7 @@
             {"url": "src/images/project_images/VirtualGameboyGameOver.png"},
             {"url": "src/images/project_images/VirtualGameboyRed.png"}
         ],
-        "description": "This is a virtual gameboy that the user can play the game Snake on.",
+        "description": "This is a virtual gameboy that the user can play the game Snake on. This is a test",
         "tech": "React.js, Redux, and SCSS",
         "demo_url": "",
         "frontend_url": "https://github.com/Serrin-Sage/game-console",
