@@ -45,13 +45,14 @@
         }
         #number-one {
             position: absolute;
-            left: 11.5%;
+            left: 12.5%;
             top: 65%;
+            transform: rotate(-85deg);
         }
         #number-two {
             position: absolute;
             right: 65%;
-            top: 15%;
+            top: 14%;
             transform: rotate(-29deg);
         }
         #number-three {
@@ -64,7 +65,7 @@
             position: absolute;
             right: 13%;
             top: 65%;
-
+            transform: rotate(85deg);
         }
         .active {
             color: rgb(231, 214, 127);
@@ -106,19 +107,43 @@
                 border-radius: 10px;
                 box-shadow: 6px 6px 10px 2px rgba(0, 0, 0, 0.37);
                 
+                .button-inner-content {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 5px;
+                    width: 145px;
+                    border: solid 2px silver;
+                    background: rgb(26, 26, 26);
+                    border-radius: 30px;
+                    .button-text {
+                        margin: 5px;
+                        width: 80px;
+                        text-align: center;
+                        color: silver;
+                        h2, h3 {
+                            margin: 0;
+                        }
+                    }
+                }
                 .button {
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     height: 45px;
-                    width: 90px;
-                    border-radius: 15px;
+                    width: 45px;
+                    border-radius: 50%;
                     margin-top: 5px;
                     margin-bottom: 5px;
-                    border: solid 2px rgba(255, 255, 255, 0.767);
-                    outline: 2px solid black;
-                    background: linear-gradient(60deg, grey, silver, grey, silver);
+                    margin-right: 5px;
+                    border: solid 2px rgba(0, 0, 0, 0.767);
+                    outline: 2px solid rgb(255, 255, 255);
+                    background-image: -webkit-radial-gradient(  100%   0%,  8% 50%, hsla(0,0%,100%,.5) 0%, hsla(0,0%,100%,0) 100%),
+                    // -webkit-radial-gradient(  50% 100%, 12% 50%, hsla(0,0%,100%,.6) 0%, hsla(0,0%,100%,0) 100%),
+                    // -webkit-radial-gradient(   80%  50%, 50%  7%, hsla(0,0%,100%,.5) 0%, hsla(0,0%,100%,0) 100%),
+                    -webkit-repeating-radial-gradient( 50% 50%, 100% 100%, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0) 1.2%, hsla(0,0%,100%,.2) 2.2%),
+                    -webkit-radial-gradient( 50% 50%, 200% 50%, hsla(0,0%,90%,1) 5%, hsla(0,0%,85%,1) 30%, hsla(0,0%,60%,1) 100%);
                     font-size: 22px;
+                    transition: 0.05s;
                     cursor: pointer;
                 }
 
