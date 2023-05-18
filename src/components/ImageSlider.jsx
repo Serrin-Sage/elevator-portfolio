@@ -15,11 +15,11 @@ const ImageSlider = ({ slides }) => {
 
   return (
     <div className="image-slider">
-        <div onClick={() => updateIndex(currentIndex - 1)} className={currentIndex === 0 ? "hide-arrow" : "left-arrow"} >
-          <img src="src\images\icons\LeftArrow.png" className="arrow-icon"/>
+        <div onClick={() => updateIndex(currentIndex - 1)} className={currentIndex === 0 ? "hide-arrow" : "left-arrow-container"} >
+          <img src="src\images\icons\LeftArrow.png" className="arrow-icon left-arrow"/>
         </div>
-        <div onClick={() => updateIndex(currentIndex + 1)} className={currentIndex >= slides.length - 1 ? "hide-arrow" : "right-arrow"} >
-          <img src="src\images\icons\RightArrow.png" className="arrow-icon"/>
+        <div onClick={() => updateIndex(currentIndex + 1)} className={currentIndex >= slides.length - 1 ? "hide-arrow" : "right-arrow-container"} >
+          <img src="src\images\icons\RightArrow.png" className="arrow-icon right-arrow"/>
         </div>
         <img src={slides[currentIndex].url} className="project-images"/>
     </div>

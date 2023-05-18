@@ -19,19 +19,23 @@ const Carousel = () => {
     <div className="carousel">
         <div className="inner-items" style={{ transform: `translate(-${activeIndex * 100}%)`}}>
             {projects.map((project) => {
-                return <ProjectCard project={project} width={"100%"}/>
+                return <ProjectCard key={project.id} project={project} width={"100%"}/>
             })}
         </div>
 
         <div className="carousel-buttons">
-          <div>
-            <img src={"src/images/icons/Staircase.png"}/>
-            <button onClick={() => updateIndex(activeIndex - 1)}>PREVIOUS</button>
-          </div>
-          <div>
-            <button onClick={() => updateIndex(activeIndex + 1)}>NEXT</button>
-            <img src={"src/images/icons/NextSymbolB.png"}/>
-          </div>
+          {activeIndex !== 0 && 
+            <div>
+              <img src={"src/images/icons/Staircase.png"}/>
+              <button onClick={() => updateIndex(activeIndex - 1)}>PREVIOUS</button>
+            </div>
+          }
+          {activeIndex !== projects.length - 1 && 
+            <div>
+              <button onClick={() => updateIndex(activeIndex + 1)}>NEXT</button>
+              <img src={"src/images/icons/NextSymbolB.png"}/>
+            </div>
+          }
         </div>
     </div>
   )

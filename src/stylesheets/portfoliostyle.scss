@@ -31,56 +31,61 @@
             align-items: center;
             height: 650px;
             
-            .left-arrow {
-                display: flex;
-                align-items: center;
-                // justify-content: center;
-                position: absolute;
-                top: 33%;
-                transform: translateX(10px);
-                height: 30px;
-                width: 30px;
-                text-align: center;
-                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                font-size: 25px;
-                font-weight: bold;
-                transition: 0.2s;
-                cursor: pointer;
-            }
-            .left-arrow:active {
-                transform: translateX(5px);
-            }
-            .right-arrow {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                position: absolute;
-                top: 33%;
-                transform: translateX(585px);
-                height: 30px;
-                width: 30px;
-                text-align: center;
-                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                font-size: 25px;
-                font-weight: bold;
-                transition: 0.2s;
-                cursor: pointer;
-            }
-            .right-arrow:active {
-                transform: translateX(590px);
-            }
-            .arrow-icon {
-                height: 35px;
-                opacity: 0.5;
-                transition: 0.2s;
-            }
-            .arrow-icon:hover {
-                opacity: 1;
-            }
-            
-            .hide-arrow {
-                position: absolute;
-                display: none;
+            .image-slider {
+                // position: relative;
+                height: 100%;
+                width: 100%;
+                .left-arrow-container {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: absolute;
+                    top: 6.5%;
+                    transform: translateX(5px);
+                    height: 350px;
+                    width: 30px;
+                    background-color: #ffffff42;
+                    text-align: center;
+                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    font-size: 25px;
+                    font-weight: bold;
+                    transition: 0.2s;
+                }
+                .right-arrow-container {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: absolute;
+                    top: 6.5%;
+                    transform: translateX(595px);
+                    height: 350px;
+                    width: 30px;
+                    background-color: #ffffff42;
+                    text-align: center;
+                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    font-size: 25px;
+                    font-weight: bold;
+                    transition: 0.2s;
+                }
+                .arrow-icon {
+                    height: 35px;
+                    opacity: 0.5;
+                    transition: 0.2s;
+                    cursor: pointer;
+                }
+                .arrow-icon:hover {
+                    opacity: 1;
+                }
+                .left-arrow:active {
+                    transform: translateX(-5px);
+                }
+                .right-arrow:active {
+                    transform: translateX(5px);
+                }
+                .hide-arrow {
+                    position: absolute;
+                    display: none;
+                }
             }
             
             .project-cotent {
@@ -97,6 +102,7 @@
 
                 .project-images {
                     height: 350px;
+                    // width: 630px;
                     border: solid 4px black;
                     margin-bottom: 1rem;
                 }

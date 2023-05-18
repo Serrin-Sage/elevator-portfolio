@@ -8,7 +8,7 @@
             {"url": "src/images/project_images/VirtualGameboyGameOver.png"},
             {"url": "src/images/project_images/VirtualGameboyRed.png"}
         ],
-        "description": "This is a virtual gameboy that the user can play the game Snake on. This is a test",
+        "description": "This is a virtual gameboy that the user can play the game Snake on.",
         "tech": "React.js, Redux, and SCSS",
         "demo_url": "",
         "frontend_url": "https://github.com/Serrin-Sage/game-console",
@@ -17,7 +17,9 @@
     {
         "id": 2,
         "title": "Flatiron Game Center",
-        "images": "src/images/FlatironGameCenter.png",
+        "images": [
+            {"url": "src/images/project_images/FlatironGameCenter.png"}
+        ],
         "description": "FGC is an website that allows instructors to give students merits.",
         "tech": "React.js, Redux, CSS, Ruby on Rails, PostgreSQL",
         "demo_url": "",
@@ -27,7 +29,13 @@
     {
         "id": 3,
         "title": "POS System",
-        "images": "src/images/PLACEHOLDER.png",
+        "images": [
+            {"url": "src/images/project_images/RamenWaiter.png"},
+            {"url": "src/images/project_images/RamenWaiterTables.png"},
+            {"url": "src/images/project_images/RamenWaiterAssign.png"},
+            {"url": "src/images/project_images/RamenWaiterClockOut.png"},
+            {"url": "src/images/project_images/RamenWaiterStaff.png"}
+        ],
         "description": "This is a POS system designed for a Ramen Restaurant.",
         "tech": "React.js, CSS, Flask, Python",
         "demo_url": "",
