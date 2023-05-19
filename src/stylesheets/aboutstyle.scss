@@ -13,7 +13,13 @@
         display: flex;
         flex-direction: column;
         width: 90%;
-        background: rgba(0, 0, 0, 0.651);
+        // background: rgba(0, 0, 0, 0.651);
+        background: rgba(53, 53, 53, 0.733);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(0.4px);
+        -webkit-backdrop-filter: blur(0.4px);
+        border: 1px solid rgba(255, 255, 255, 1);
 
         .about-image-container {
             display: flex;
