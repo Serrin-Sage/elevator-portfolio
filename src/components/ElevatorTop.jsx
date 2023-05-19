@@ -24,8 +24,8 @@ const ElevatorTop = () => {
   return (
     <div className="elevator-top">
         <div className="dial-container">
-          <img src="./src/images/DialBlack.png" className="elevator-dial" />
-          <img src="./src/images/DialArrow.png" className="dial-arrow" id={`floor-${floor}`}/>
+          <img src="/images/DialBlack.png" className="elevator-dial" />
+          <img src="/images/DialArrow.png" className="dial-arrow" id={`floor-${floor}`}/>
           <div className="floor-number" id="number-one">
             <div className={floor === "one" ? "active" : "inactive"}>1</div>
           </div>
