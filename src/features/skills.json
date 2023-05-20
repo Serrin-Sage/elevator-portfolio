@@ -2,7 +2,7 @@
   {
     "id": 1, 
     "name": "JavaScript",
-    "icon": "src/images/icons/JavaScriptIconW.png"
+    "icon": "/images/icons/JavaScriptIconW.png"
   },
   {
     "id": 2,
