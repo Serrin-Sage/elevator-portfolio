@@ -7,7 +7,7 @@
   {
     "id": 2,
     "name": "HTML",
-    "icon": "src/images/icons/HTMLicon-removebg-previewW.png"
+    "icon": "./src/images/icons/HTMLicon-removebg-previewW.png"
   },
   {
     "id": 3,
