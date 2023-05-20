@@ -26,14 +26,14 @@ const Carousel = () => {
         <div className="carousel-buttons">
           {activeIndex !== 0 && 
             <div>
-              <img src={"src/images/icons/Staircase.png"}/>
+              <img src={"/images/icons/PreviousSymbol.png"}/>
               <button onClick={() => updateIndex(activeIndex - 1)}>PREVIOUS</button>
             </div>
           }
           {activeIndex !== projects.length - 1 && 
             <div>
               <button onClick={() => updateIndex(activeIndex + 1)}>NEXT</button>
-              <img src={"src/images/icons/NextSymbolB.png"}/>
+              <img src={"/images/icons/NextSymbolB.png"}/>
             </div>
           }
         </div>
