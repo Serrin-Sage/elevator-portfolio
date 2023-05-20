@@ -30,11 +30,11 @@
         "id": 3,
         "title": "POS System",
         "images": [
-            {"url": "public/images/projectImages/RamenWaiter.png"},
-            {"url": "public/images/projectImages/RamenWaiterTables.png"},
-            {"url": "public/images/projectImages/RamenWaiterAssign.png"},
-            {"url": "public/images/projectImages/RamenWaiterClockOut.png"},
-            {"url": "public/images/projectImages/RamenWaiterStaff.png"}
+            {"url": "/images/projectImages/RamenWaiter.png"},
+            {"url": "/images/projectImages/RamenWaiterTables.png"},
+            {"url": "/images/projectImages/RamenWaiterAssign.png"},
+            {"url": "/images/projectImages/RamenWaiterClockOut.png"},
+            {"url": "/images/projectImages/RamenWaiterStaff.png"}
         ],
         "description": "This is a POS system designed for a Ramen Restaurant.",
         "tech": "React.js, CSS, Flask, Python",

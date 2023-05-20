@@ -22,7 +22,7 @@ const ImageSlider = ({ slides }) => {
           <img src="/images/icons/RightArrow.png" className="arrow-icon right-arrow"/>
         </div>
         <div className="project-image-container">
-          {/* <img src={slides[currentIndex].url} className="project-images"/> */}
+          <img src={slides[currentIndex].url} className="project-images"/>
         </div>
     </div>
   )
