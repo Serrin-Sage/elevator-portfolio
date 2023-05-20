@@ -21,7 +21,9 @@ const ImageSlider = ({ slides }) => {
         <div onClick={() => updateIndex(currentIndex + 1)} className={currentIndex >= slides.length - 1 ? "hide-arrow" : "right-arrow-container"}>
           <img src="/images/icons/RightArrow.png" className="arrow-icon right-arrow"/>
         </div>
-        <img src={slides[currentIndex].url} className="project-images"/>
+        <div className="project-image-container">
+          {/* <img src={slides[currentIndex].url} className="project-images"/> */}
+        </div>
     </div>
   )
 }

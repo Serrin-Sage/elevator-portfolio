@@ -1,7 +1,7 @@
 .portfolio-container {
     // background-image: url('src/images/GeometricGold.png');
     // background-image: url('src/images/FancyBlueGold.png');
-    // background-image: url('/images/GoldBoxes.png');
+    background-image: url('/images/GoldBoxes.png');
     background-size: 1180px;
     min-height: inherit;
     width: inherit;
@@ -86,6 +86,16 @@
                     position: absolute;
                     display: none;
                 }
+                .project-image-container {
+                    width: 632px;
+                    height: 350px;
+                    margin-bottom: 1.5rem;
+                    .project-images {
+                        height: 100%;
+                        // width: 630px;
+                        border: solid 4px black;
+                    }
+                }
             }
             
             .project-cotent {
@@ -100,12 +110,6 @@
                 border-left: solid 14px #aa6442;
                 background: linear-gradient(to bottom, var(--lightgold), var(--darkgold), var(--lightgold), var(--darkgold));
 
-                .project-images {
-                    height: 350px;
-                    // width: 630px;
-                    border: solid 4px black;
-                    margin-bottom: 1rem;
-                }
                 .project-text {
                     display: flex;
                     flex-direction: column;
