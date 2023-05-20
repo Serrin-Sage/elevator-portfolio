@@ -23,7 +23,7 @@ function MainFloor() {
           </div>
           <div className='resume-container'>
             <a href={ResumePDF}  download="Serrin Doscher Resume">
-              <div> <img src="src\images\icons\DownloadIconW.png" alt="Download Icon"/> Resume </div>
+              <div> <img src="/images/icons/DownloadIconW.png" alt="Download Icon"/> Resume </div>
             </a>
           </div>
         </div>
