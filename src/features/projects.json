@@ -3,10 +3,10 @@
         "id": 1,
         "title": "Virtual Gameboy",
         "images": [
-            {"url": "/images/project_images/VirtualGameboy.png"},
-            {"url": "/images/project_images/VirtualGameboyPlaying.png"},
-            {"url": "/images/project_images/VirtualGameboyGameOver.png"},
-            {"url": "/images/project_images/VirtualGameboyRed.png"}
+            {"url": "/images/projectImages/VirtualGameboy.png"},
+            {"url": "/images/projectImages/VirtualGameboyPlaying.png"},
+            {"url": "/images/projectImages/VirtualGameboyGameOver.png"},
+            {"url": "/images/projectImages/VirtualGameboyRed.png"}
         ],
         "description": "This is a virtual gameboy that the user can play the game Snake on.",
         "tech": "React.js, Redux, and SCSS",
@@ -18,7 +18,7 @@
         "id": 2,
         "title": "Flatiron Game Center",
         "images": [
-            {"url": "/images/project_images/FlatironGameCenter.png"}
+            {"url": "/images/projectImages/FlatironGameCenter.png"}
         ],
         "description": "FGC is an website that allows instructors to give students merits.",
         "tech": "React.js, Redux, CSS, Ruby on Rails, PostgreSQL",
@@ -30,11 +30,11 @@
         "id": 3,
         "title": "POS System",
         "images": [
-            {"url": "public/images/project_images/RamenWaiter.png"},
-            {"url": "public/images/project_images/RamenWaiterTables.png"},
-            {"url": "public/images/project_images/RamenWaiterAssign.png"},
-            {"url": "public/images/project_images/RamenWaiterClockOut.png"},
-            {"url": "public/images/project_images/RamenWaiterStaff.png"}
+            {"url": "public/images/projectImages/RamenWaiter.png"},
+            {"url": "public/images/projectImages/RamenWaiterTables.png"},
+            {"url": "public/images/projectImages/RamenWaiterAssign.png"},
+            {"url": "public/images/projectImages/RamenWaiterClockOut.png"},
+            {"url": "public/images/projectImages/RamenWaiterStaff.png"}
         ],
         "description": "This is a POS system designed for a Ramen Restaurant.",
         "tech": "React.js, CSS, Flask, Python",
