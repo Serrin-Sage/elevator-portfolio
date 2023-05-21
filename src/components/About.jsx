@@ -21,7 +21,7 @@ const About = () => {
         <div className="about-site-text">
           <h5>About this site</h5>
           <p>
-            This site was built using React.js, Redux, and SCSS. I managed my work and project flow with Github and I'm hosting on ____.
+            This site was built using React.js, Redux, and SCSS. I managed my work and project flow with Github and I'm hosting on Nelify.
             The site was inspired by a talk I attended during my time at Flatiron School. The speaker made an anology about the complications
             of designing an elevator and how the user interacts with it. This inspired me to make a wesbite that functions like a elevator,
             although significantly less complex. The elevator dial was designed using Inkscape, everything else was desgined using vanilla
