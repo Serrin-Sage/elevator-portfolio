@@ -187,4 +187,57 @@
             }
         }
     }
+
+    .nav-buttons {
+        position: absolute;
+        bottom: 8%;
+        display: flex;
+        justify-content: space-evenly;
+        width: 125%;
+        // border: solid 2px red;
+
+        div {
+            
+            display: flex;
+            background: linear-gradient(rgb(54, 54, 54), rgb(83, 83, 83));
+            border-top: solid 4px #c5c5c5;
+            border-right: solid 4px #a5a5a5;
+            border-bottom: solid 4px #8b8b8b;
+            border-left: solid 4px #6b6b6b;
+            padding: 8px;
+            animation: fadeup 0.5s ease forwards;
+            cursor: pointer;
+            img {
+                height: 30px;
+                opacity: 0.5;
+                transition: 0.2s;
+            }
+        }
+
+        div:hover {
+            img {
+                opacity: 1;
+            }
+        }
+        .next-button {
+            transform: rotate(180deg);
+        }
+        .next-button:active {
+            transform: translateX(4px) rotate(180deg);
+        }
+        .previous-button:active {
+            transform: translateX(-4px);
+        }
+
+        .hidden-button {
+            opacity: 0;
+        }
+    }
 }
+
+// @keyframes fadeup {
+//     to {
+//         opacity: 1;
+//         transform: translateY(0);
+//     }
+// }
