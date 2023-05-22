@@ -1,6 +1,6 @@
 .main-container {
     background-image: url('/images/BlackGold.jpg');
-    min-height: inherit;
+    height: inherit;
     width: inherit;
     display: flex;
     justify-content: center;
@@ -13,6 +13,7 @@
         position: relative;
         width: 60%;
         padding: 2rem 3rem 2rem 3rem;
+        margin-bottom: 4rem;
         border-top: solid 14px #c5c5c5;
         border-right: solid 14px #a5a5a5;
         border-bottom: solid 14px #8b8b8b;

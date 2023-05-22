@@ -12,13 +12,13 @@
         width: 400px;
         .elevator-dial {
             margin: 5px;
-            max-height: 180px;
+            max-height: 160px;
         }
         .dial-arrow {
             position: absolute;
             right: 187.2px;
-            top: 12%;
-            max-height: 145px;
+            top: 9.1%;
+            max-height: 135px;
             z-index: 2;
             transition: 1s;
             transition-delay: 0.8s;
@@ -28,11 +28,11 @@
             transform-origin: 50% 90%;
         }
         #floor-two {
-            transform: rotate(-34deg);
+            transform: rotate(-37deg);
             transform-origin: 50% 90%;
         }
         #floor-three {
-            transform: rotate(34deg);
+            transform: rotate(37deg);
             transform-origin: 50% 90%;
         }
         #floor-four {
@@ -45,25 +45,25 @@
         }
         #number-one {
             position: absolute;
-            left: 12.5%;
-            top: 65%;
+            left: 16.5%;
+            top: 63%;
             transform: rotate(-85deg);
         }
         #number-two {
             position: absolute;
             right: 65%;
-            top: 14%;
-            transform: rotate(-29deg);
+            top: 15%;
+            transform: rotate(-32deg);
         }
         #number-three {
             position: absolute;
             right: 30%;
-            top: 15%;
-            transform: rotate(29deg);
+            top: 16%;
+            transform: rotate(34deg);
         }
         #number-four {
             position: absolute;
-            right: 13%;
+            right: 16.5%;
             top: 65%;
             transform: rotate(85deg);
         }
@@ -86,16 +86,16 @@
     display: flex;
     justify-content: space-between;
     .elevator-panel {
-        width: 18%;
-        min-height: 80vh;
+        width: 15%;
+        min-height: 90vh;
         display: flex;
         justify-content: center;
         z-index: 2;
         
         .button-container {
-            border: solid 2px rgba(0, 0, 0, 0.075);
             margin: 5px;
             padding: 8px;
+            border: solid 2px rgba(0, 0, 0, 0.075);
 
             .button-content {
                 display: flex;
@@ -179,7 +179,7 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        min-height: inherit;
+        height: 100%;
         color: #fff;
         font-size: 50px;
     }

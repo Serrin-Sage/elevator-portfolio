@@ -41,16 +41,6 @@ const Carousel = () => {
               <img src={"/images/icons/ProjectArrowW.png"} className="next-button"/>
           </div>
         </>
-          {/* {activeIndex !== 0 && 
-            <div onClick={() => updateIndex(activeIndex - 1)}>
-              <img src={"/images/icons/ProjectArrowW.png"}/>
-            </div>
-          }
-          {activeIndex !== projects.length - 1 && 
-            <div onClick={() => updateIndex(activeIndex + 1)}>
-              <img src={"/images/icons/ProjectArrowW.png"} className="next-button"/>
-            </div>
-          } */}
        </div>
       </>
     )
