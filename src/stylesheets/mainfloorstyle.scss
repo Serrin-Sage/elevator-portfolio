@@ -1,7 +1,7 @@
 .main-container {
     background-image: url('/images/BlackGold.jpg');
-    height: inherit;
-    width: inherit;
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,10 +10,11 @@
     .main-frame {
         display: flex;
         justify-content: center;
-        position: relative;
+        align-items: center;
         width: 60%;
-        padding: 2rem 3rem 2rem 3rem;
-        margin-bottom: 4rem;
+        height: 65%;
+        margin-bottom: 5rem;
+        padding: 3rem 2.5rem 3rem 2.5rem;
         border-top: solid 14px #c5c5c5;
         border-right: solid 14px #a5a5a5;
         border-bottom: solid 14px #8b8b8b;
@@ -23,30 +24,31 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            height: fit-content;
+            height: 100%;
             // width: 60%;
-            // background: linear-gradient(#DBB25E, #907335);
             background: linear-gradient(rgb(34, 34, 34), rgb(0, 0, 0)) padding-box,
             linear-gradient(to bottom, var(--lightgold), var(--darkgold), var(--lightgold), var(--darkgold)) border-box;
             border-radius: 15px;
             border: 12px solid transparent;
             h2 {
                 margin: 2rem;
+                font-size: clamp(11px, 6vh, 60px);
             }
             .sub-content {
                 display: flex;
-                margin-bottom: 1rem;
+                margin-bottom: 2rem;
                 border-bottom: solid 2px white;
                 p {
-                    font-size: 25px;
+                    font-size: clamp(11px, 3vh, 25px);
                     margin: 0 2rem 0 2rem;
                 }
             }
             .skills-column {
                 display: flex;
                 justify-content: space-evenly;
-                max-width: 60%;
+                width: 60%;
                 flex-wrap: wrap;
+                // gap: 3rem;
                 .skill-icon-container {
                     position: relative;
                     align-items: center;
@@ -56,7 +58,18 @@
                     transition: 0.2s;
                     
                     .skill-icon-image {
+                        // height: clamp(10px, 6vh, 50px);
                         height: 50px;
+                    }
+                    @media (max-height: 900px) {
+                        .skill-icon-image {
+                            height: 40px;
+                        }
+                    }
+                    @media (max-height: 800px) {
+                        .skill-icon-image {
+                            height: 30px;
+                        }
                     }
                     .hover-text {
                         position: absolute;
@@ -98,6 +111,22 @@
                 img {
                     height: 18px;
                 }
+                @media (max-height: 900px) {
+                    a {
+                        font-size: 20px;
+                    }
+                    img {
+                        height: 16px;
+                    }
+                }
+                @media (max-height: 800px) {
+                    a {
+                        font-size: 18px;
+                    }
+                    img {
+                        height: 14px;
+                    }
+                }
             }
             .resume-container:active {
                 border-top: solid 2px rgb(29, 29, 29);
@@ -111,3 +140,4 @@
         }
     }
 }
+
