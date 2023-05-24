@@ -28,6 +28,10 @@ const About = () => {
             SCSS.
           </p>
         </div>
+        <div className="content-nail" id="top-left-nail"></div>
+        <div className="content-nail" id="top-right-nail"></div>
+        <div className="content-nail" id="bottom-right-nail"></div>
+        <div className="content-nail" id="bottom-left-nail"></div>
       </div>
     </div>
   )
