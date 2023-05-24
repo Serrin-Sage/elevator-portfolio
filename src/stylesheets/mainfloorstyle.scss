@@ -48,7 +48,12 @@
                 justify-content: space-evenly;
                 width: 60%;
                 flex-wrap: wrap;
-                // gap: 3rem;
+                @media (max-height: 900px) {
+                    width: 65%
+                }
+                @media (max-height: 800px) {
+                    width: 70%;
+                }
                 .skill-icon-container {
                     position: relative;
                     align-items: center;
@@ -60,16 +65,14 @@
                     .skill-icon-image {
                         // height: clamp(10px, 6vh, 50px);
                         height: 50px;
-                    }
-                    @media (max-height: 900px) {
-                        .skill-icon-image {
+
+                        @media (max-height: 900px) {
                             height: 40px;
-                        }
-                    }
-                    @media (max-height: 800px) {
-                        .skill-icon-image {
-                            height: 30px;
-                        }
+                          }
+                    
+                          @media (max-height: 800px) {
+                            height: 35px;
+                          }
                     }
                     .hover-text {
                         position: absolute;
@@ -89,6 +92,7 @@
                     z-index: 2;
                 }
             }
+            
             .resume-container {
                 text-align: center;
                 margin: 1.5rem;
