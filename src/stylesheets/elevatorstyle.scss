@@ -13,6 +13,8 @@
         .elevator-dial {
             margin: 5px;
             max-height: 160px;
+            transition: 0.2s;
+            
         }
         .dial-arrow {
             position: absolute;
@@ -80,6 +82,16 @@
         }
     }
 }
+
+// @media (max-height: 900px) {
+//     .elevator-top {
+//         .dial-container {
+//             .elevator-dial {
+//                 max-height: 150px;
+//             } 
+//         }
+//     }
+// }
 
 
 .elevator-middle-container {
@@ -212,3 +224,14 @@
     }
 }
 
+@media (max-width: 480px) {
+    .elevator-top {
+        
+    }
+}
+
+@media (max-width: 768px) {
+    .elevator-top {
+
+    }
+}
