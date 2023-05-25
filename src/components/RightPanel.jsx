@@ -11,6 +11,11 @@ const RightPanel = () => {
     dispatch(buttonPress({ pressed: false}))
   }
 
+  let winWidth = window.screen.width;
+  let winHeight = window.screen.height;
+
+  let screenSize = winHeight * winWidth
+  console.log(screenSize)
   return (
     <div className="elevator-panel" id="right-panel">
         <div className="button-container">
@@ -18,7 +23,7 @@ const RightPanel = () => {
             <div className="button-inner-content">
               <div className="button-text">
                 <h2>4</h2>
-                <h3>Contact</h3>
+                {screenSize <= 230400 ? null : <h3>Contact</h3> }
               </div>
               <div className="button" id="button-four" onClick={() => changeFloorClick("four")}>
                 
@@ -27,7 +32,8 @@ const RightPanel = () => {
             <div className="button-inner-content">
               <div className="button-text">
                 <h2>3</h2>
-                <h3>Projects</h3>
+                {screenSize <= 230400 ? null : <h3>Projects</h3> }
+                
               </div>
               <div className="button" id="button-three" onClick={() => changeFloorClick("three")}>
               
@@ -36,7 +42,8 @@ const RightPanel = () => {
             <div className="button-inner-content">
               <div className="button-text">
                 <h2>2</h2>
-                <h3>About</h3>
+                {screenSize <= 230400 ? null : <h3>About</h3> }
+                
               </div>
               <div className="button" id="button-two" onClick={() => changeFloorClick("two")}>
   
@@ -45,7 +52,7 @@ const RightPanel = () => {
             <div className="button-inner-content">
               <div className="button-text">
                 <h2>1</h2>
-                <h3>Main</h3>
+                {screenSize <= 230400 ? null : <h3>Main</h3> }
               </div>
               <div className="button" id="button-one" onClick={() => changeFloorClick("one")}>
 
