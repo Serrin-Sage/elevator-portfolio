@@ -121,3 +121,28 @@
         } 
     }
 }
+
+@media (max-width: 375px) {
+    .contact-container {
+        background-size: 520px;
+        .contact-frame {
+            padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+            border-top: solid 10px #c69781;
+            border-right: solid 10px #aa6442;
+            border-bottom: solid 10px #934c29;
+            border-left: solid 10px #aa6442;
+            .contact-content {
+                padding: 0px;
+                font-size: 18px;
+                div {
+                    margin: 0;
+                    margin-bottom: 15px;
+                    img {
+                        margin: 10px;
+                        height: 25px;
+                    }
+                }
+            }
+        } 
+    }
+}

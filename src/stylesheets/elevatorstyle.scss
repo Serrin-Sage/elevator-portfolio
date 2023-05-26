@@ -223,7 +223,7 @@
 }
 
 //Media Queries for Screen Sizes
-//360 x 640
+//320 x 640
 @media (max-width: 320px) {
     .elevator-top {
         .dial-container {
@@ -321,8 +321,99 @@
     }
 }
 
-// @media (max-width: 768px) {
-//     .elevator-top {
+@media (max-width: 375px) {
+    .elevator-top {
+        .dial-container {
+            position: relative;
+            color: #fff;
+            width: 400px;
+            .elevator-dial {
+                margin: 5px;
+                max-height: 120px;
+                transition: 0.2s;    
+            }
+            .dial-arrow {
+                position: absolute;
+                right: 179px;
+                top: 10%;
+                max-height: 100px;
+                z-index: 2;
+                transition: 1s;
+                transition-delay: 0.8s;
+            }
+            #floor-one {
+                transform: rotate(-87deg);
+                transform-origin: 50% 90%;
+            }
+            #floor-two {
+                transform: rotate(-34deg);
+                transform-origin: 50% 90%;
+            }
+            #floor-three {
+                transform: rotate(34deg);
+                transform-origin: 50% 90%;
+            }
+            #floor-four {
+                transform: rotate(87.5deg);
+                transform-origin: 50% 90%;
+            }
+            .floor-number {
+                font-size: 24px;
+                font-weight: bold;
+            }
+            #number-one {
+                position: absolute;
+                left: 23%;
+                top: 63%;
+                transform: rotate(-84deg);
+            }
+            #number-two {
+                position: absolute;
+                right: 61%;
+                top: 13%;
+                transform: rotate(-35deg);
+            }
+            #number-three {
+                position: absolute;
+                left: 55%;
+                top: 13.5%;
+                transform: rotate(35deg);
+            }
+            #number-four {
+                position: absolute;
+                right: 23.2%;
+                top: 63%;
+                transform: rotate(85deg);
+            }
+        }
+    }
 
-//     }
-// }
+    .elevator-middle-container {
+        .elevator-panel { 
+            .button-container {
+                border: none;
+                .button-content {
+                    padding: 5px;
+                    .button-inner-content {
+                        display: block;
+                        text-align: center;
+                        width: fit-content;
+                        .button-text {
+                            font-size: 12px;
+                            width: 0px;
+                            margin-left: 7px;
+                            h3 {
+                                display: none;
+                            }
+                        }
+                        .button {
+                            width: 22px;
+                            height: 22px;
+                            margin-right: 0px;
+                        }
+                    }
+                }
+            }
+        } 
+    }
+}
