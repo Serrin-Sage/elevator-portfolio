@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div className="about-container">
       <div className="about-content">
-        <div className="about-image-container">
+        <div className="about-me">
           <img src="/images/HomerAndMe.jpg" className="about-image"/>
           <div className="about-text-container">
             <p>
@@ -18,7 +18,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="about-site-text">
+        {/* <div className="about-site-text">
           <h5>About this site</h5>
           <p>
             This site was built using React.js, Redux, and SCSS. I managed my work and project flow with Github and I'm hosting on Nelify.
@@ -27,11 +27,11 @@ const About = () => {
             although significantly less complex. The elevator dial was designed using Inkscape, everything else was desgined using vanilla
             SCSS.
           </p>
-        </div>
-        <div className="content-nail" id="top-left-nail"></div>
-        <div className="content-nail" id="top-right-nail"></div>
-        <div className="content-nail" id="bottom-right-nail"></div>
-        <div className="content-nail" id="bottom-left-nail"></div>
+        </div> */}
+        <div className="plaque-rivet" id="top-left-rivet"></div>
+        <div className="plaque-rivet" id="top-right-rivet"></div>
+        <div className="plaque-rivet" id="bottom-right-rivet"></div>
+        <div className="plaque-rivet" id="bottom-left-rivet"></div>
       </div>
     </div>
   )
