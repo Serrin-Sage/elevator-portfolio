@@ -237,7 +237,7 @@
             }
             .dial-arrow {
                 position: absolute;
-                right: 154px;
+                right: 153px;
                 top: 13%;
                 max-height: 80px;
                 z-index: 2;
@@ -304,6 +304,7 @@
                         .button-text {
                             font-size: 12px;
                             width: 0px;
+                            margin-left: 6px;
                             h3 {
                                 display: none;
                             }

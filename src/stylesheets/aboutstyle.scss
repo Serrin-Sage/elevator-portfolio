@@ -3,6 +3,7 @@
     background-size: 835px;
     height: inherit;
     width: inherit;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,6 +12,7 @@
     .about-content {
         display: flex;
         flex-direction: column;
+        align-items: center;
         width: 90%;
         margin-bottom: 4rem;
         background: rgba(53, 53, 53, 0.678);
@@ -22,15 +24,19 @@
         border-bottom: 15px solid rgba(153, 153, 153, 0.699);
         border-left: 15px solid rgba(133, 133, 133, 0.699);
         .about-me {
-            display: flex;
-            .about-text-container {
-                padding: 10px;
-            }
+            // display: flex;
+            width: 87%;
             .about-image {
-                height: 380px;
+                height: 360px;
                 margin: 10px;
+                margin-right: 16px;
                 border-radius: 20%;
                 border: solid 4px var(--lightgold);
+                float: left;
+            }
+            .about-text-container {
+                padding: 10px;
+                text-align: justify;
             }
         }
     }
@@ -57,10 +63,11 @@
         border: 2px solid grey;
         border-radius: 50%;
         z-index: -1;
-        margin: 4rem;
+        margin: 1rem;
     }
-    // #top-left-rivet {
-    // }
+    #top-left-rivet {
+        left: 0;
+    }
     #top-right-rivet {
         right: 0;
     }
@@ -70,11 +77,12 @@
     }
     #bottom-right-rivet {
         bottom: 0;
+        right: 0;
     }
 }
 
 //Media Queries for Screen Sizes
-//360 x 640
+//320 x 640
 @media (max-width: 320px) {
     .about-container {
         background-size: 435px;
@@ -84,14 +92,20 @@
             .about-me {
                 display: flex;
                 flex-direction: column;
+                padding-top: 8px;
                 .about-image {
-                    height: 130px;
+                    height: 120px;
+                    margin: 0px;
                 }
                 .about-text-container {
                     font-size: 10px;
+                    padding: 5px;
                     text-align: center;
                 }
             }
+        }
+        .about-site-text {
+            display: none;
         }
 
         .plaque-rivet {
