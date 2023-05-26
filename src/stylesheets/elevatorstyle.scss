@@ -5,7 +5,7 @@
     z-index: 2;
     background: linear-gradient(45deg, rgb(117, 117, 117), rgb(214, 214, 214));
     border-bottom: solid 2px rgba(0, 0, 0, 0.267);
-    box-shadow: 0 0 15px 20px rgba(66, 66, 66, 0.466);
+    box-shadow: 0 0 15px 20px rgba(66, 66, 66, 0.486);
     .dial-container {
         position: relative;
         color: #fff;
@@ -222,6 +222,8 @@
     }
 }
 
+//Media Queries for Screen Sizes
+
 @media (max-width: 360px) {
     .elevator-top {
         .dial-container {
@@ -302,6 +304,9 @@
                         .button-text {
                             font-size: 12px;
                             width: 0px;
+                            h3 {
+                                display: none;
+                            }
                         }
                         .button {
                             width: 20px;

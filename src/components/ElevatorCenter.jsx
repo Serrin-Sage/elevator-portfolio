@@ -39,11 +39,11 @@ const ElevatorCenter = () => {
 
   return (
     <div className="center-container">
-      {/* <div className="center-floor">
+      <div className="center-floor">
        {
         floorContent
        }
-      </div> */}
+      </div>
       <ElevatorDoors />
     </div>
   )

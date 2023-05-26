@@ -12,6 +12,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
         width: 60%;
         height: 65%;
         margin-bottom: 5rem;
@@ -40,9 +41,9 @@
             .sub-content {
                 display: flex;
                 margin-bottom: 1rem;
-                border-bottom: solid 2px white;
+                border-bottom: solid 1px white;
+                font-size: 30px;
                 p {
-                    font-size: clamp(11px, 3vh, 25px);
                     margin: 0 2rem 0 2rem;
                 }
             }
@@ -123,22 +124,6 @@
                 img {
                     height: 18px;
                 }
-                @media (max-height: 900px) {
-                    a {
-                        font-size: 20px;
-                    }
-                    img {
-                        height: 16px;
-                    }
-                }
-                @media (max-height: 800px) {
-                    a {
-                        font-size: 18px;
-                    }
-                    img {
-                        height: 14px;
-                    }
-                }
             }
             .resume-container:active {
                 border-top: solid 2px rgb(29, 29, 29);
@@ -153,50 +138,63 @@
     }
 }
 
-@media (min-width: 640px) {
-    .main-container .main-frame .main-content .skills-column .skill-icon-container .skill-icon-image 
+//Media Queries for Screen Sizes
+
+@media (max-width: 360px) {
     .main-container {
+        background-size: 150px;
         .main-frame {
+            margin-bottom: 2.5rem;
+            padding: 1rem 0.5rem 1rem 0.5rem;
+            width: 70%;
+            border-top: solid 8px #c5c5c5;
+            border-right: solid 8px #a5a5a5;
+            border-bottom: solid 8px #8b8b8b;
+            border-left: solid 8px #6b6b6b;
             
             .main-content {
-                .skills-column {
-                    .skill-icon-container {
-                        .skill-icon-image {
-                            
-                        }
+                border: 4px solid transparent;
+                text-align: center;
+                h2 {
+                    margin: 1rem;
+                    font-size: 22px;
+                }
+                .sub-content {
+                    font-size: 12px;
+                    margin: 0 1rem 0 1rem;
+                    border-bottom: 1px solid white;
+                    padding-bottom: 0.5rem;
+                    p {
+                        margin: 0;
                     }
                 }
-            }
-        }
-    }
-}
-
-@media (max-height: 800px) or (max-width: 1350px) {
-    .main-container {
-        .main-frame {
-            .main-content {
                 .skills-column {
+                    width: 90%;
                     .skill-icon-container {
+                        margin: 0.5rem;
                         .skill-icon-image {
-                            height: 35px;
-                        }
+                            height: 25px;
+                        }   
                     }
                 }
-
-            }
-        }
-    }
-}
-
-@media (max-height: 700px) or (max-width: 1050px) {
-    .main-container {
-        .main-frame {
-            .main-content {
-                .skills-column {
-                    .skill-icon-container {
-                        .skill-icon-image {
-                            height: 30px;
-                        }
+                .resume-container {
+                    margin: 0.8rem;
+                    padding: 2px;
+                    border-top: solid 2px silver;
+                    border-right: solid 2px rgb(139, 139, 139);
+                    border-bottom: solid 2px rgb(29, 29, 29);
+                    border-left: solid 2px rgb(29, 29, 29);
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        font-size: 16px;
+                    }
+                    button {
+                        color: white;
+                        background: black;
+                    }
+                    img {
+                        height: 12px;
                     }
                 }
 
