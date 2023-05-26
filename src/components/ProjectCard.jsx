@@ -7,8 +7,10 @@ const ProjectCard = ({ project, width }) =>  {
             <ImageSlider slides={project.images}/>
             <div className="project-text">
                 <div className="project-title">{project.title}</div>
-                <p className="project-description">{project.description}</p>
-                <div>Techn Used: {project.tech}</div>
+                <div className="project-description">
+                  <p>{project.description}</p>
+                </div>
+                <div>Tech Used: {project.tech}</div>
                 <div className="project-links">
                     {project.demo_url === "" ? "" : `Demo: ${project.demo_url}`}
                     <img src="/images/icons/GitHubicon.png" alt="GitHub Icon"/> 

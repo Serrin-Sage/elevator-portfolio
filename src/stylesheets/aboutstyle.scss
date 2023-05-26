@@ -3,21 +3,16 @@
     background-size: 835px;
     height: inherit;
     width: inherit;
+    
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: inset 0 0 70px 20px rgb(0, 0, 0);
     font-size: 24px;
-
-    @media (max-height: 900px) {
-        font-size: 20px;
-    }
-    @media (max-height: 800px) {
-        font-size: 18px;
-    }
     .about-content {
         display: flex;
         flex-direction: column;
+        align-items: center;
         width: 90%;
         margin-bottom: 4rem;
         background: rgba(53, 53, 53, 0.678);
@@ -28,32 +23,20 @@
         border-right: 15px solid rgba(201, 201, 201, 0.699);
         border-bottom: 15px solid rgba(153, 153, 153, 0.699);
         border-left: 15px solid rgba(133, 133, 133, 0.699);
-
-        @media (max-height: 900px) {
-            margin-bottom: 3rem;
-        }
-        @media (max-height: 800px) {
-            margin-bottom: 2rem;
-        }
-        .about-image-container {
-            display: flex;
-            .about-text-container {
-                
-                p {
-                  padding: 10px;  
-                }
-            }
+        .about-me {
+            // display: flex;
+            width: 87%;
             .about-image {
-                height: 380px;
+                height: 360px;
                 margin: 10px;
+                margin-right: 16px;
                 border-radius: 20%;
                 border: solid 4px var(--lightgold);
-                @media (max-height: 900px) {
-                    height: 340px;
-                }
-                @media (max-height: 800px) {
-                    height: 300px;
-                }
+                float: left;
+            }
+            .about-text-container {
+                padding: 10px;
+                text-align: justify;
             }
         }
     }
@@ -65,45 +48,76 @@
             margin-bottom: 15px;
             font-weight: bold;
             font-size: 25px;
-            @media (max-height: 900px) {
-                font-size: 22px;
-            }
-            @media (max-height: 800px) {
-                font-size: 19px;
-            }
         }
         p {
             font-size: 20px;
             margin: 0;
-            @media (max-height: 900px) {
-                font-size: 18px;
-            }
-            @media (max-height: 800px) {
-                font-size: 16px;
-            }
         }
     }
-    // .content-nail {
-    //     position: absolute;
-    //     height: 60px;
-    //     width: 60px;
-    //     background: linear-gradient(rgb(0, 0, 0), rgb(34, 34, 34), rgb(58, 58, 58));
-    //     outline: 2px solid rgb(192, 192, 192);
-    //     border: 2px solid grey;
-    //     border-radius: 50%;
-    //     z-index: -1;
-    //     margin: 4rem;
-    // }
-    // #top-left-nail {
-    // }
-    // #top-right-nail {
-    //     right: 0;
-    // }
-    // #bottom-left-nail {
-    //     bottom: 0;
-    //     right: 0;
-    // }
-    // #bottom-right-nail {
-    //     bottom: 0;
-    // }
+    .plaque-rivet {
+        position: absolute;
+        height: 60px;
+        width: 60px;
+        background: linear-gradient(rgb(0, 0, 0), rgb(34, 34, 34), rgb(58, 58, 58));
+        outline: 2px solid rgb(192, 192, 192);
+        border: 2px solid grey;
+        border-radius: 50%;
+        z-index: -1;
+        margin: 1rem;
+    }
+    #top-left-rivet {
+        left: 0;
+    }
+    #top-right-rivet {
+        right: 0;
+    }
+    #bottom-left-rivet {
+        bottom: 0;
+        left: 0;
+    }
+    #bottom-right-rivet {
+        bottom: 0;
+        right: 0;
+    }
+}
+
+//Media Queries for Screen Sizes
+//320 x 640
+@media (max-width: 320px) {
+    .about-container {
+        background-size: 435px;
+        .about-content {
+            display: flex;
+            align-items: center;
+            .about-me {
+                display: flex;
+                flex-direction: column;
+                padding-top: 8px;
+                .about-image {
+                    height: 120px;
+                    margin: 0px;
+                }
+                .about-text-container {
+                    font-size: 10px;
+                    padding: 5px;
+                    text-align: center;
+                }
+            }
+        }
+        .about-site-text {
+            display: none;
+        }
+
+        .plaque-rivet {
+            height: 20px;
+            width: 20px;
+            margin: 0.5rem;
+        }
+        #top-left-rivet {
+            left: 0;
+        }
+        #bottom-right-rivet {
+            right: 0;
+        }
+    }
 }

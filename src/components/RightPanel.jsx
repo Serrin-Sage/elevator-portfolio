@@ -11,6 +11,11 @@ const RightPanel = () => {
     dispatch(buttonPress({ pressed: false}))
   }
 
+  let winWidth = window.screen.width;
+  let winHeight = window.screen.height;
+
+  let screenSize = winHeight * winWidth
+  console.log(screenSize)
   return (
     <div className="elevator-panel" id="right-panel">
         <div className="button-container">
