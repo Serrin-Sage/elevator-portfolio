@@ -59,8 +59,8 @@
         z-index: -1;
         margin: 4rem;
     }
-    #top-left-rivet {
-    }
+    // #top-left-rivet {
+    // }
     #top-right-rivet {
         right: 0;
     }
@@ -75,8 +75,9 @@
 
 //Media Queries for Screen Sizes
 //360 x 640
-@media (max-width: 360px) {
+@media (max-width: 320px) {
     .about-container {
+        background-size: 435px;
         .about-content {
             display: flex;
             align-items: center;

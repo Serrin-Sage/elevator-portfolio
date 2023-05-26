@@ -224,7 +224,7 @@
 
 //Media Queries for Screen Sizes
 //360 x 640
-@media (max-width: 360px) {
+@media (max-width: 320px) {
     .elevator-top {
         .dial-container {
             position: relative;
@@ -237,7 +237,7 @@
             }
             .dial-arrow {
                 position: absolute;
-                right: 173px;
+                right: 154px;
                 top: 13%;
                 max-height: 80px;
                 z-index: 2;
@@ -245,15 +245,15 @@
                 transition-delay: 0.8s;
             }
             #floor-one {
-                transform: rotate(-88deg);
+                transform: rotate(-87deg);
                 transform-origin: 50% 90%;
             }
             #floor-two {
-                transform: rotate(-39deg);
+                transform: rotate(-35deg);
                 transform-origin: 50% 90%;
             }
             #floor-three {
-                transform: rotate(39deg);
+                transform: rotate(35deg);
                 transform-origin: 50% 90%;
             }
             #floor-four {
@@ -266,26 +266,26 @@
             }
             #number-one {
                 position: absolute;
-                left: 26.8%;
+                left: 23.8%;
                 top: 63%;
                 transform: rotate(-85deg);
             }
             #number-two {
                 position: absolute;
                 right: 61%;
-                top: 16.4%;
+                top: 14.5%;
                 transform: rotate(-35deg);
             }
             #number-three {
                 position: absolute;
                 left: 55%;
-                top: 16.4%;
+                top: 14.6%;
                 transform: rotate(35deg);
             }
             #number-four {
                 position: absolute;
-                right: 26.8%;
-                top: 65%;
+                right: 24%;
+                top: 63%;
                 transform: rotate(85deg);
             }
         }
