@@ -86,3 +86,9 @@ html, body {
   overflow-x: hidden;
   overflow-y: hidden;
 }
+
+/* @media (max-width: 375px) {
+  html, body {
+    overflow-y: auto;
+  }
+} */
