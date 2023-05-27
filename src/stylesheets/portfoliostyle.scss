@@ -378,3 +378,75 @@
         }
     }
 }
+
+
+
+@media (max-width: 425px) {
+    .portfolio-container {
+        background-size: 1090px;
+        .carousel {
+            .inner-items {
+                .project-item {
+                    .project-cotent{
+                        padding: 9px;
+                        border-top: solid 7px #c69781;
+                        border-right: solid 7px #aa6442;
+                        border-bottom: solid 7px #934c29;
+                        border-left: solid 7px #aa6442;
+                        .image-slider {
+                            .project-image-container {
+                                height: 200px;
+                                width: 250px;
+                                margin: 0px;
+                                .project-images {
+                                    border: solid 2px black;
+                                }
+                                .right-arrow-container {
+                                    height: 97%;
+                                    right: 1%;
+                                }
+                                .left-arrow-container {
+                                    margin: 0px;
+                                    height: 97%;
+                                    left: -1%;
+                                }
+                                .arrow-icon {
+                                    height: 25px;
+                                }
+                            }
+                        }
+    
+                        .project-text {
+                            display: flex;
+                            margin: 10px;
+                            width: 180px;
+                            height: 120px;
+                            font-size: 14px;
+                            overflow-y: auto;
+                            .project-title {
+                                font-size: 18px;
+                            }
+                            .project-links {
+                                display: flex;
+                                align-items: center;
+                                margin: 10px;
+                                
+                                img {
+                                    height: 15px;
+                                    border: none;
+                                    margin: 0;
+                                    margin-right:6px;
+                                }
+        
+                                a {
+                                    text-decoration: underline;
+                                    color: black;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
