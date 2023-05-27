@@ -18,7 +18,7 @@
         background: rgba(53, 53, 53, 0.678);
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(0.4px);
-        -webkit-backdrop-filter: blur(0.4px);
+        // -webkit-backdrop-filter: blur(0.4px);
         border-top: 15px solid rgba(255, 255, 255, 0.699);
         border-right: 15px solid rgba(201, 201, 201, 0.699);
         border-bottom: 15px solid rgba(153, 153, 153, 0.699);
@@ -83,63 +83,71 @@
 
 //Media Queries for Screen Sizes
 //320 x 640
-@media (max-width: 320px) {
-    .about-container {
-        background-size: 435px;
-        .about-content {
-            display: flex;
-            align-items: center;
-            .about-me {
-                display: flex;
-                flex-direction: column;
-                padding-top: 8px;
-                .about-image {
-                    height: 120px;
-                    margin: 0px;
-                }
-                .about-text-container {
-                    font-size: 10px;
-                    padding: 5px;
-                    text-align: center;
-                }
-            }
-        }
-        .about-site-text {
-            display: none;
-        }
+// @media (max-width: 320px) {
+//     .about-container {
+//         background-size: 435px;
+//         .about-content {
+//             display: flex;
+//             align-items: center;
+//             .about-me {
+//                 display: flex;
+//                 flex-direction: column;
+//                 padding-top: 8px;
+//                 .about-image {
+//                     height: 120px;
+//                     margin: 0px;
+//                 }
+//                 .about-text-container {
+//                     font-size: 10px;
+//                     padding: 5px;
+//                     text-align: center;
+//                 }
+//             }
+//         }
+//         .about-site-text {
+//             display: none;
+//         }
 
-        .plaque-rivet {
-            height: 20px;
-            width: 20px;
-            margin: 0.5rem;
-        }
-        #top-left-rivet {
-            left: 0;
-        }
-        #bottom-right-rivet {
-            right: 0;
-        }
-    }
-}
+//         .plaque-rivet {
+//             height: 20px;
+//             width: 20px;
+//             margin: 0.5rem;
+//         }
+//         #top-left-rivet {
+//             left: 0;
+//         }
+//         #bottom-right-rivet {
+//             right: 0;
+//         }
+//     }
+// }
 
 @media (max-width: 375px) {
     .about-container {
         background-size: 435px;
+        align-items: normal;
+
         .about-content {
             display: flex;
             align-items: center;
+            height: 60%;
+            margin-top: calc(15vh - 2rem);
+            overflow-y: hidden;
             .about-me {
                 display: flex;
                 flex-direction: column;
                 padding-top: 8px;
+                
                 .about-image {
                     height: 150px;
                     margin: 0px;
                 }
                 .about-text-container {
-                    font-size: 12.5px;
+                    height: 45%;
                     padding: 5px;
+                    font-size: 12.5px;
                     text-align: center;
+                    overflow-y: auto;
                 }
             }
         }

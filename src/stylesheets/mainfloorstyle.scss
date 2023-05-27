@@ -4,7 +4,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    // align-items: center;
     box-shadow: inset 0 0 70px 20px rgb(0, 0, 0);
     transition: 0.2s;
     cursor: default;
@@ -15,7 +15,8 @@
         text-align: center;
         width: 60%;
         height: 65%;
-        margin-bottom: 5rem;
+        margin-bottom: 8rem;
+        // margin-top: 3rem;
         padding: 3rem 2.5rem 3rem 2.5rem;
         border-top: solid 14px #c5c5c5;
         border-right: solid 14px #a5a5a5;
@@ -23,6 +24,7 @@
         border-left: solid 14px #6b6b6b;
         background: linear-gradient(30deg, rgb(114, 114, 114), silver, grey, rgb(114,114,114));
         transition: 0.2s;
+        
         .main-content {
             display: flex;
             flex-direction: column;
@@ -34,6 +36,7 @@
             border-radius: 15px;
             border: 12px solid transparent;
             transition: 0.2s;
+            overflow-y: auto;
             h2 {
                 margin: 2rem;
                 // font-size: clamp(11px, 6vh, 60px);
@@ -131,76 +134,76 @@
 }
 
 //Media Queries for Screen Sizes
-//360 x 640
-@media (max-width: 320px) {
-    .main-container {
-        background-size: 150px;
-        .main-frame {
-            margin-bottom: 2.5rem;
-            padding: 1rem 0.5rem 1rem 0.5rem;
-            width: 74%;
-            border-top: solid 8px #c5c5c5;
-            border-right: solid 8px #a5a5a5;
-            border-bottom: solid 8px #8b8b8b;
-            border-left: solid 8px #6b6b6b;
+//320 x 640
+// @media (max-width: 320px) {
+//     .main-container {
+//         background-size: 150px;
+//         .main-frame {
+//             margin-bottom: 2.5rem;
+//             padding: 1rem 0.5rem 1rem 0.5rem;
+//             width: 74%;
+//             border-top: solid 8px #c5c5c5;
+//             border-right: solid 8px #a5a5a5;
+//             border-bottom: solid 8px #8b8b8b;
+//             border-left: solid 8px #6b6b6b;
             
-            .main-content {
-                border: 4px solid transparent;
-                text-align: center;
-                h2 {
-                    margin: 1rem;
-                    font-size: 22px;
-                }
-                .sub-content {
-                    font-size: 12px;
-                    margin: 0 1rem 0 1rem;
-                    border-bottom: 1px solid white;
-                    padding-bottom: 0.5rem;
-                    p {
-                        margin: 0;
-                    }
-                }
-                .skills-column {
-                    width: 90%;
-                    .skill-icon-container {
-                        margin: 0.5rem;
-                        .skill-icon-image {
-                            height: 25px;
-                        }   
-                    }
-                }
-                .resume-container {
-                    margin: 0.8rem;
-                    padding: 2px;
-                    border-top: solid 2px silver;
-                    border-right: solid 2px rgb(139, 139, 139);
-                    border-bottom: solid 2px rgb(29, 29, 29);
-                    border-left: solid 2px rgb(29, 29, 29);
-                    a {
-                        text-decoration: none;
-                        color: white;
-                        font-size: 16px;
-                    }
-                    button {
-                        color: white;
-                        background: black;
-                    }
-                    img {
-                        height: 12px;
-                    }
-                }
+//             .main-content {
+//                 border: 4px solid transparent;
+//                 text-align: center;
+//                 h2 {
+//                     margin: 1rem;
+//                     font-size: 22px;
+//                 }
+//                 .sub-content {
+//                     font-size: 12px;
+//                     margin: 0 1rem 0 1rem;
+//                     border-bottom: 1px solid white;
+//                     padding-bottom: 0.5rem;
+//                     p {
+//                         margin: 0;
+//                     }
+//                 }
+//                 .skills-column {
+//                     width: 90%;
+//                     .skill-icon-container {
+//                         margin: 0.5rem;
+//                         .skill-icon-image {
+//                             height: 25px;
+//                         }   
+//                     }
+//                 }
+//                 .resume-container {
+//                     margin: 0.8rem;
+//                     padding: 2px;
+//                     border-top: solid 2px silver;
+//                     border-right: solid 2px rgb(139, 139, 139);
+//                     border-bottom: solid 2px rgb(29, 29, 29);
+//                     border-left: solid 2px rgb(29, 29, 29);
+//                     a {
+//                         text-decoration: none;
+//                         color: white;
+//                         font-size: 16px;
+//                     }
+//                     button {
+//                         color: white;
+//                         background: black;
+//                     }
+//                     img {
+//                         height: 12px;
+//                     }
+//                 }
 
-            }
-        }
-    }
-}
+//             }
+//         }
+//     }
+// }
 
 
 @media (max-width: 375px) {
     .main-container {
         background-size: 150px;
         .main-frame {
-            margin-bottom: 2.5rem;
+            margin-top: calc(12vh - 3rem);
             padding: 1rem 0.5rem 1rem 0.5rem;
             width: 74%;
             border-top: solid 8px #c5c5c5;
@@ -229,7 +232,7 @@
                     .skill-icon-container {
                         margin: 0.7rem;
                         .skill-icon-image {
-                            height: 30px;
+                            height: 33px;
                         }   
                     }
                 }
