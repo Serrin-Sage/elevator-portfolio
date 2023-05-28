@@ -314,6 +314,71 @@
 // }
 
 @media (max-width: 1024px) {
+    .elevator-top {
+        .dial-container {
+            position: relative;
+            color: #fff;
+            width: 400px;
+            .elevator-dial {
+                margin: 5px;
+                max-height: 120px;
+                transition: 0.2s;    
+            }
+            .dial-arrow {
+                position: absolute;
+                right: 191px;
+                top: 10.5%;
+                max-height: 100px;
+                z-index: 2;
+                transition: 1s;
+                transition-delay: 0.8s;
+            }
+            #floor-one {
+                transform: rotate(-86deg);
+                transform-origin: 50% 90%;
+            }
+            #floor-two {
+                transform: rotate(-39deg);
+                transform-origin: 50% 90%;
+            }
+            #floor-three {
+                transform: rotate(37deg);
+                transform-origin: 50% 90%;
+            }
+            #floor-four {
+                transform: rotate(87.5deg);
+                transform-origin: 50% 90%;
+            }
+            .floor-number {
+                font-size: 26px;
+                font-weight: bold;
+            }
+            #number-one {
+                position: absolute;
+                left: 24.4%;
+                top: 62%;
+                transform: rotate(-83deg);
+            }
+            #number-two {
+                position: absolute;
+                right: 62%;
+                top: 15.3%;
+                transform: rotate(-35.5deg);
+            }
+            #number-three {
+                position: absolute;
+                left: 56%;
+                top: 15%;
+                transform: rotate(35deg);
+            }
+            #number-four {
+                position: absolute;
+                right: 24.5%;
+                top: 62%;
+                transform: rotate(85deg);
+            }
+        }
+    }
     .elevator-middle-container {
         .elevator-panel { 
             .button-container {
@@ -343,6 +408,8 @@
         } 
     }
 }
+
+
 @media (max-width: 768px) {
     .elevator-middle-container {
         .elevator-panel { 
@@ -547,7 +614,7 @@
                 border: none;
                 .button-content {
                     padding: 5px;
-                    transform: translateY(-50px);
+                    transform: translateY(-20px);
                     .button-inner-content {
                         display: block;
                         text-align: center;

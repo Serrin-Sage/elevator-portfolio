@@ -131,18 +131,25 @@
                         .project-links {
                             display: flex;
                             align-items: center;
+                            justify-content: space-evenly;
+                            width: 100%;
                             margin: 10px;
                             font-size: clamp(11px, 1.8vh, 24px);
-                            img {
-                                height: 30px;
-                                border: none;
-                                margin: 0;
-                                margin-right:6px;
-                            }
-    
-                            a {
-                                text-decoration: none;
-                                color: black;
+
+                            .github-link {
+                                display: flex;
+                                align-items: center;
+                                img {
+                                    height: 30px;
+                                    border: none;
+                                    margin: 0;
+                                    margin-right:6px;
+                                }
+        
+                                a {
+                                    text-decoration: none;
+                                    color: black;
+                                }
                             }
                         }
                     }
@@ -197,7 +204,7 @@
                 border-bottom: solid 4px #8b8b8b;
                 border-left: solid 4px #6b6b6b;
                 padding: 8px;
-                animation: fadeup 0.5s ease forwards;
+                // animation: fadeup 0.5s ease forwards;
                 cursor: pointer;
                 img {
                     height: 30px;
@@ -313,8 +320,8 @@
                         border-left: solid 10px #aa6442;
                         .image-slider {
                             .project-image-container {
-                                height: 50%;
-                                width: 650px;
+                                height: 250px;
+                                max-width: 550px;
                                 margin: 0px;
                                 .project-images {
                                     border: solid 2px black;
@@ -340,29 +347,30 @@
                             display: flex;
                             flex-direction: column;
                             margin: 10px;
-                            width: 90%;
-                            height: 140px;
-                            font-size: 16px;
+                            width: 420px;
+                            height: 130px;
+                            font-size: 14px;
                             overflow-y: auto;
                             .project-title {
-                                font-size: 20px;
+                                font-size: 18px;
                             }
                             .project-links {
-                                display: flex;
-                                align-items: center;
-                                margin: 10px;
-                                
-                                img {
-                                    height: 15px;
-                                    border: none;
-                                    margin: 0;
-                                    margin-right:6px;
-                                }
-        
-                                a {
-                                    text-decoration: underline;
-                                    color: black;
-                                    font-size: 18px;
+                                width: 80%;
+                                font-size: 12px;
+                                .github-link {
+                                    display: flex;
+                                    align-items: center;
+                                    img {
+                                        height: 20px;
+                                        border: none;
+                                        margin: 0;
+                                        margin-right:6px;
+                                    }
+            
+                                    a {
+                                        text-decoration: none;
+                                        color: black;
+                                    }
                                 }
                             }
                         }
@@ -370,7 +378,15 @@
                 }
             }
             .nav-buttons {
-                width: 80%;
+                // display: none;
+                position: absolute;
+                bottom: 10%;
+                width: 172%;
+                div {
+                    img {
+                        height: 20px;
+                    }
+                }
             }
         }
     }
@@ -428,7 +444,7 @@
                                 display: flex;
                                 align-items: center;
                                 margin: 10px;
-                                
+                                font-size: 12px;
                                 img {
                                     height: 15px;
                                     border: none;

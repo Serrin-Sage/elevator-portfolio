@@ -10,11 +10,13 @@ const ProjectCard = ({ project, width }) =>  {
                 <div className="project-description">
                   <p>{project.description}</p>
                 </div>
-                <div>Tech Used: {project.tech}</div>
                 <div className="project-links">
-                    {project.demo_url === "" ? "" : `Demo: ${project.demo_url}`}
-                    <img src="/images/icons/GitHubicon.png" alt="GitHub Icon"/> 
-                    <a href={project.frontend_url} target="_blank">Github</a>
+                    <div>Tech Used: {project.tech}</div>
+                    <div className="github-link">
+                      {project.demo_url === "" ? "" : `Demo: ${project.demo_url}`}
+                      <img src="/images/icons/GitHubicon.png" alt="GitHub Icon"/> 
+                      <a href={project.frontend_url} target="_blank">Github</a>
+                    </div>
                 </div>
             </div>
         </div>
