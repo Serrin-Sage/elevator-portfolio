@@ -122,6 +122,68 @@
 //     }
 // }
 
+@media (max-width: 1024px) {
+    .about-container {
+        background-size: 435px;
+        align-items: normal;
+
+        .about-content {
+            display: flex;
+            align-items: center;
+            height: 72%;
+            width: 85%;
+            margin-top: calc(10vh - 2rem);
+            overflow-y: hidden;
+            .about-me {
+                // display: flex;
+                // flex-direction: column;
+                padding-top: 8px;
+                
+                .about-image {
+                    height: 220px;
+                    margin: 5px;
+                    margin-right: 10px;
+                }
+                .about-text-container {
+                    height: 45%;
+                    padding: 5px;
+                    font-size: 17px;
+                    text-align: justify;
+                    // overflow-y: auto;
+                    p {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        .about-site-text {
+            // display: none;
+            h5 {
+                margin: 0;
+                margin-bottom: 15px;
+                font-weight: bold;
+                font-size: 16px;
+            }
+            p {
+                font-size: 13px;
+                margin: 0;
+            }
+        }
+
+        .plaque-rivet {
+            height: 35px;
+            width: 35px;
+            margin: 0.5rem;
+        }
+        #top-left-rivet {
+            left: 0;
+        }
+        #bottom-right-rivet {
+            right: 0;
+        }
+    }
+}
+
 @media (max-width: 768px) {
     .about-container {
         background-size: 435px;

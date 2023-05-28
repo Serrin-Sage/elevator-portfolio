@@ -83,15 +83,7 @@
     }
 }
 
-// @media (max-height: 900px) {
-//     .elevator-top {
-//         .dial-container {
-//             .elevator-dial {
-//                 max-height: 150px;
-//             } 
-//         }
-//     }
-// }
+
 
 
 .elevator-middle-container {
@@ -321,6 +313,36 @@
 //     }
 // }
 
+@media (max-width: 1024px) {
+    .elevator-middle-container {
+        .elevator-panel { 
+            .button-container {
+                transform: translateY(-40px);
+                border: none;
+                padding: 0px;
+                .button-content {
+                    margin: 0px;
+                    padding: 0px;
+                    width: 100%;
+                    .button-inner-content {
+                        width: 90%;
+                        justify-content: normal;
+                        padding: 2px;
+                        margin: 5px 0 5px 0;
+                        .button-text {
+                            font-size: 14px;
+                            margin: 0px;
+                        }
+                        .button {
+                            height: 30px;
+                            width: 30px;
+                        }
+                    }
+                }
+            }
+        } 
+    }
+}
 @media (max-width: 768px) {
     .elevator-middle-container {
         .elevator-panel { 
