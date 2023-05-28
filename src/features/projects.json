@@ -20,7 +20,7 @@
         "images": [
             {"url": "/images/projectImages/FlatironGameCenter.png"}
         ],
-        "description": "FGC is an website that allows instructors to track and award students merits.",
+        "description": "FGC is a website that allows instructors to track and award students merits.",
         "tech": "React.js, Redux, CSS, Ruby on Rails, PostgreSQL",
         "demo_url": "",
         "frontend_url": "https://github.com/Serrin-Sage/fgc_immortals",

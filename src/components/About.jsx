@@ -16,17 +16,18 @@ const About = () => {
               During my time at Flatiron School, I frequently collaborated with and supported classmates who struggled with coding concepts. 
               These interactions fostered strong personal connections, establishing me as a dependable resource for assistance.
             </p>
+            <div className="about-site-text">
+              <h5>About this site</h5>
+              <p>
+                This site was built using React.js, Redux, and SCSS. I managed my work and project flow with Github and I'm hosting on Nelify.
+                The site was inspired by a talk I attended during my time at Flatiron School. The speaker made an anology about the complications
+                of programming an elevator and how the user interacts with it. This inspired me to make a wesbite that functions like a elevator,
+                although significantly less complex. The elevator dial was designed using Inkscape, everything else was desgined using vanilla
+                SCSS.
+              </p>
+            </div>
           </div>
-        <div className="about-site-text">
-          <h5>About this site</h5>
-          <p>
-            This site was built using React.js, Redux, and SCSS. I managed my work and project flow with Github and I'm hosting on Nelify.
-            The site was inspired by a talk I attended during my time at Flatiron School. The speaker made an anology about the complications
-            of programming an elevator and how the user interacts with it. This inspired me to make a wesbite that functions like a elevator,
-            although significantly less complex. The elevator dial was designed using Inkscape, everything else was desgined using vanilla
-            SCSS.
-          </p>
-        </div>
+        
         </div>
         <div className="plaque-rivet" id="top-left-rivet"></div>
         <div className="plaque-rivet" id="top-right-rivet"></div>
