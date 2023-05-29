@@ -305,6 +305,91 @@
 //         }
 //     }
 // }
+@media (max-width: 1440px) {
+    .portfolio-container {
+        background-size: 1090px;
+        .carousel {
+            .inner-items {
+                .project-item {
+                    .project-cotent{
+                        padding: 9px;
+                        border-top: solid 10px #c69781;
+                        border-right: solid 10px #aa6442;
+                        border-bottom: solid 10px #934c29;
+                        border-left: solid 10px #aa6442;
+                        .image-slider {
+                            .project-image-container {
+                                height: 250px;
+                                max-width: 550px;
+                                margin: 0px;
+                                .project-images {
+                                    border: solid 2px black;
+                                }
+                                .right-arrow-container {
+                                    height: 97.5%;
+                                    right: 0.5%;
+                                    top: -0.5%;
+                                }
+                                .left-arrow-container {
+                                    margin: 0px;
+                                    height: 97.5%;
+                                    left: -0.5%;
+                                    top: -0.5%
+                                }
+                                .arrow-icon {
+                                    height: 25px;
+                                }
+                            }
+                        }
+    
+                        .project-text {
+                            display: flex;
+                            flex-direction: column;
+                            margin: 10px;
+                            width: 420px;
+                            height: 130px;
+                            font-size: 14px;
+                            overflow-y: auto;
+                            .project-title {
+                                font-size: 18px;
+                            }
+                            .project-links {
+                                width: 80%;
+                                font-size: 12px;
+                                .github-link {
+                                    display: flex;
+                                    align-items: center;
+                                    img {
+                                        height: 20px;
+                                        border: none;
+                                        margin: 0;
+                                        margin-right:6px;
+                                    }
+            
+                                    a {
+                                        text-decoration: none;
+                                        color: black;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .nav-buttons {
+                // display: none;
+                position: absolute;
+                bottom: 10%;
+                width: 172%;
+                div {
+                    img {
+                        height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
 
 @media (max-width: 1024px) {
     .portfolio-container {

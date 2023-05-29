@@ -121,6 +121,67 @@
 //         }
 //     }
 // }
+@media(max-width: 1440px) {
+    .about-container {
+        background-size: 435px;
+        align-items: normal;
+
+        .about-content {
+            display: flex;
+            align-items: center;
+            height: fit-content;
+            width: 85%;
+            margin-top: calc(10vh - 2rem);
+            overflow-y: hidden;
+            .about-me {
+                // display: flex;
+                // flex-direction: column;
+                padding-top: 8px;
+                
+                .about-image {
+                    height: 30vh;
+                    margin: 5px;
+                    margin-right: 10px;
+                }
+                .about-text-container {
+                    height: 45%;
+                    padding: 5px;
+                    font-size: 2.3vh;
+                    text-align: justify;
+                    // overflow-y: auto;
+                    p {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        .about-site-text {
+            // display: none;
+            h5 {
+                margin: 0;
+                margin-bottom: 15px;
+                font-weight: bold;
+                font-size: 2.5vh;
+            }
+            p {
+                font-size: 2vh;
+                margin: 0;
+            }
+        }
+
+        .plaque-rivet {
+            height: 35px;
+            width: 35px;
+            margin: 0.5rem;
+        }
+        #top-left-rivet {
+            left: 0;
+        }
+        #bottom-right-rivet {
+            right: 0;
+        }
+    }
+}
 
 @media (max-width: 1024px) {
     .about-container {
