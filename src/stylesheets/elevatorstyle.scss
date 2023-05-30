@@ -215,169 +215,61 @@
 }
 
 //Media Queries for Screen Sizes
-//320 x 640
-// @media (max-width: 320px) {
-//     .elevator-top {
-//         .dial-container {
-//             position: relative;
-//             color: #fff;
-//             width: 400px;
-//             .elevator-dial {
-//                 margin: 5px;
-//                 max-height: 100px;
-//                 transition: 0.2s;    
-//             }
-//             .dial-arrow {
-//                 position: absolute;
-//                 right: 153px;
-//                 top: 13%;
-//                 max-height: 80px;
-//                 z-index: 2;
-//                 transition: 1s;
-//                 transition-delay: 0.8s;
-//             }
-//             #floor-one {
-//                 transform: rotate(-87deg);
-//                 transform-origin: 50% 90%;
-//             }
-//             #floor-two {
-//                 transform: rotate(-35deg);
-//                 transform-origin: 50% 90%;
-//             }
-//             #floor-three {
-//                 transform: rotate(35deg);
-//                 transform-origin: 50% 90%;
-//             }
-//             #floor-four {
-//                 transform: rotate(88deg);
-//                 transform-origin: 50% 90%;
-//             }
-//             .floor-number {
-//                 font-size: 20px;
-//                 font-weight: bold;
-//             }
-//             #number-one {
-//                 position: absolute;
-//                 left: 23.8%;
-//                 top: 63%;
-//                 transform: rotate(-85deg);
-//             }
-//             #number-two {
-//                 position: absolute;
-//                 right: 61%;
-//                 top: 14.5%;
-//                 transform: rotate(-35deg);
-//             }
-//             #number-three {
-//                 position: absolute;
-//                 left: 55%;
-//                 top: 14.6%;
-//                 transform: rotate(35deg);
-//             }
-//             #number-four {
-//                 position: absolute;
-//                 right: 24%;
-//                 top: 63%;
-//                 transform: rotate(85deg);
-//             }
-//         }
-//     }
-
-//     .elevator-middle-container {
-//         .elevator-panel { 
-//             .button-container {
-//                 border: none;
-//                 .button-content {
-//                     padding: 5px;
-//                     .button-inner-content {
-//                         display: block;
-//                         text-align: center;
-//                         width: fit-content;
-//                         .button-text {
-//                             font-size: 12px;
-//                             width: 0px;
-//                             margin-left: 6px;
-//                             h3 {
-//                                 display: none;
-//                             }
-//                         }
-//                         .button {
-//                             width: 20px;
-//                             height: 20px;
-//                             margin-right: 0px;
-//                         }
-//                     }
-//                 }
-//             }
-//         } 
-//     }
-// }
 @media (max-width: 1440px) {
-    // .elevator-top {
-    //     .dial-container {
-    //         position: relative;
-    //         color: #fff;
-    //         width: 400px;
-    //         .elevator-dial {
-    //             margin: 5px;
-    //             max-height: 120px;
-    //             transition: 0.2s;    
-    //         }
-    //         .dial-arrow {
-    //             position: absolute;
-    //             right: 191px;
-    //             top: 10.5%;
-    //             max-height: 100px;
-    //             z-index: 2;
-    //             transition: 1s;
-    //             transition-delay: 0.8s;
-    //         }
-    //         #floor-one {
-    //             transform: rotate(-86deg);
-    //             transform-origin: 50% 90%;
-    //         }
-    //         #floor-two {
-    //             transform: rotate(-39deg);
-    //             transform-origin: 50% 90%;
-    //         }
-    //         #floor-three {
-    //             transform: rotate(37deg);
-    //             transform-origin: 50% 90%;
-    //         }
-    //         #floor-four {
-    //             transform: rotate(87.5deg);
-    //             transform-origin: 50% 90%;
-    //         }
-    //         .floor-number {
-    //             font-size: 26px;
-    //             font-weight: bold;
-    //         }
-    //         #number-one {
-    //             position: absolute;
-    //             left: 24.4%;
-    //             top: 62%;
-    //             transform: rotate(-83deg);
-    //         }
-    //         #number-two {
-    //             position: absolute;
-    //             right: 62%;
-    //             top: 15.3%;
-    //             transform: rotate(-35.5deg);
-    //         }
-    //         #number-three {
-    //             position: absolute;
-    //             left: 56%;
-    //             top: 15%;
-    //             transform: rotate(35deg);
-    //         }
-    //         #number-four {
-    //             position: absolute;
-    //             right: 24.5%;
-    //             top: 62%;
-    //             transform: rotate(85deg);
-    //         }
-    //     }
-    // }
+    .elevator-top {
+        .dial-container {
+            .elevator-dial {
+                max-height: 140px;
+            }
+            .dial-arrow {
+                right: 189px;
+                top: 9.5%;
+                max-height: 118px;
+            }
+            #floor-one {
+                transform: rotate(-86deg);
+                transform-origin: 50% 90%;
+            }
+            #floor-two {
+                transform: rotate(-35deg);
+                transform-origin: 50% 90%;
+            }
+            #floor-three {
+                transform: rotate(36deg);
+                transform-origin: 50% 90%;
+            }
+            #floor-four {
+                transform: rotate(87.5deg);
+                transform-origin: 50% 90%;
+            }
+            .floor-number {
+                font-size: 32px;
+            }
+            #number-one {
+                left: 20.2%;
+                top: 62%;
+                transform: rotate(-83deg);
+            }
+            #number-two {
+                position: absolute;
+                right: 62%;
+                top: 12.2%;
+                transform: rotate(-35.5deg);
+            }
+            #number-three {
+                position: absolute;
+                left: 60%;
+                top: 13.4%;
+                transform: rotate(35deg);
+            }
+            #number-four {
+                position: absolute;
+                right: 20.3%;
+                top: 62%;
+                transform: rotate(85deg);
+            }
+        }
+    }
     .elevator-middle-container {
         .elevator-panel { 
             .button-container {
