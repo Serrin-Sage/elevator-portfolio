@@ -83,7 +83,7 @@
                         display: none;
                     }
                     .project-image-container {
-                        height: 380px;
+                        height: 40vh;
                         margin-bottom: 1rem;
                         .project-images {
                             object-fit:cover;
@@ -101,7 +101,6 @@
                     align-items: center;
                     padding: 1.5rem;
                     margin-bottom: 1rem;
-                    font-size: 19px;
                     border-top: solid 14px #c69781;
                     border-right: solid 14px #aa6442;
                     border-bottom: solid 14px #934c29;
@@ -111,14 +110,13 @@
                     .project-text {
                         display: flex;
                         flex-direction: column;
-                        flex-wrap: wrap;
                         align-items: center;
                         width: 95%;
                         padding: 5px;
                         text-align: center;
                         white-space: normal;
                         color: black;
-                        font-size: 18px;
+                        font-size: 2vh;
                         font-weight: bold;
                         background: linear-gradient(60deg,rgb(158, 158, 158) 30%, grey 70%, rgb(148, 148, 148), grey, rgb(66, 66, 66));
                         border-top: solid 6px #c5c5c5;
@@ -126,7 +124,7 @@
                         border-bottom: solid 6px #8b8b8b;
                         border-left: solid 6px #6b6b6b;
                         .project-title {
-                            font-size: clamp(11px, 2vh, 24px);
+                            font-size: 3vh;
                         }
                         .project-links {
                             display: flex;
@@ -140,7 +138,7 @@
                                 display: flex;
                                 align-items: center;
                                 img {
-                                    height: 30px;
+                                    height: 2.5vh;
                                     border: none;
                                     margin: 0;
                                     margin-right:6px;
@@ -193,8 +191,8 @@
         .nav-buttons {
             display: flex;
             justify-content: space-evenly;
-            width: 50%;
-            transform: translateY(-40px);
+            width: 270vh;
+            position: absolute;
             div {
                 
                 display: flex;
@@ -204,7 +202,6 @@
                 border-bottom: solid 4px #8b8b8b;
                 border-left: solid 4px #6b6b6b;
                 padding: 8px;
-                // animation: fadeup 0.5s ease forwards;
                 cursor: pointer;
                 img {
                     height: 30px;
@@ -220,6 +217,7 @@
             }
             .next-button {
                 transform: rotate(180deg);
+                
             }
             .next-button:active {
                 transform: translateX(4px) rotate(180deg);
@@ -230,6 +228,7 @@
     
             .hidden-button {
                 opacity: 0;
+                pointer-events: none;
             }
         }
     }
@@ -239,32 +238,28 @@
 //Media Queries for Screen Sizes
 @media (max-width: 1440px) {
     .portfolio-container {
-        background-size: 1090px;
+        background-size: 1250px;
         .carousel {
             .inner-items {
                 .project-item {
                     .project-cotent{
-                        padding: 9px;
                         border-top: solid 10px #c69781;
                         border-right: solid 10px #aa6442;
                         border-bottom: solid 10px #934c29;
                         border-left: solid 10px #aa6442;
                         .image-slider {
                             .project-image-container {
-                                height: 250px;
-                                max-width: 550px;
-                                margin: 0px;
                                 .project-images {
                                     border: solid 2px black;
                                 }
                                 .right-arrow-container {
-                                    height: 97.5%;
+                                    height: 96%;
                                     right: 0.5%;
                                     top: -0.5%;
                                 }
                                 .left-arrow-container {
                                     margin: 0px;
-                                    height: 97.5%;
+                                    height: 96%;
                                     left: -0.5%;
                                     top: -0.5%
                                 }
@@ -275,19 +270,8 @@
                         }
     
                         .project-text {
-                            display: flex;
-                            flex-direction: column;
-                            margin: 10px;
-                            width: 420px;
-                            height: 130px;
-                            font-size: 14px;
-                            overflow-y: auto;
-                            .project-title {
-                                font-size: 18px;
-                            }
                             .project-links {
                                 width: 80%;
-                                font-size: 12px;
                                 .github-link {
                                     display: flex;
                                     align-items: center;
@@ -308,17 +292,6 @@
                     }
                 }
             }
-            .nav-buttons {
-                // display: none;
-                position: absolute;
-                bottom: 10%;
-                width: 172%;
-                div {
-                    img {
-                        height: 20px;
-                    }
-                }
-            }
         }
     }
 }
@@ -330,7 +303,7 @@
             .inner-items {
                 .project-item {
                     .project-cotent{
-                        padding: 9px;
+                        // padding: 9px;
                         border-top: solid 10px #c69781;
                         border-right: solid 10px #aa6442;
                         border-bottom: solid 10px #934c29;
