@@ -7,7 +7,7 @@ const About = () => {
           <div className="about-text-container">
             <p className="first-paragraph">
               Welcome to my website! My name is Serrin Doscher and I'm a software engineer and full-stack developer.
-              I have a passion for creative and unique UI designs that are fun to interactive with.
+              I have a passion for creative and unique UI designs that are fun to interact with.
               As a child, I used to create entire worlds through drawing, Lego building, acting, and even stop-motion animation, allowing my imagination to flourish. 
               Today, I channel my creative energy into coding and game tinkering.
             </p>
