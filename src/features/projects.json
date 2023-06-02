@@ -18,7 +18,15 @@
         "id": 2,
         "title": "Flatiron Game Center",
         "images": [
-            {"url": "/images/projectImages/FlatironGameCenter.png"}
+            {"url": "/images/projectImages/FlatironGameCenter.png"},
+            {"url": "/images/projectImages/FGC-Welcome.png"},
+            {"url": "/images/projectImages/FGCMerits.png"},
+            {"url": "/images/projectImages/FGCSwitch.png"},
+            {"url": "/images/projectImages/FGCSignIn.png"},
+            {"url": "/images/projectImages/FGCStudentList.png"},
+            {"url": "/images/projectImages/FGCMeritList.png"},
+            {"url": "/images/projectImages/FGCNewStudent.png"},
+            {"url": "/images/projectImages/FGCStudentPage.png"}
         ],
         "description": "FGC is a website that allows instructors to track and award students merits.",
         "tech": "React.js, Redux, CSS, Ruby on Rails, PostgreSQL",
