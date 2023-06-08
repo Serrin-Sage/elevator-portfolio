@@ -6,4 +6,6 @@ of programming an elevator and how the user interacts with it. This inspired me 
 although significantly less complex. The elevator dial was designed using Inkscape, everything else was desgined using vanilla
 SCSS.
 
+Each floor of the elevator is a section with information about me or about my projects. I have a floor for skills (Main), About, Projects and Contact.
+
 Check out the deployed wesbite! https://serrindoscher.com/
