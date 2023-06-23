@@ -202,7 +202,6 @@
             width: 270vh;
             position: absolute;
             div {
-                
                 display: flex;
                 background: linear-gradient(rgb(54, 54, 54), rgb(83, 83, 83));
                 border-top: solid 4px #c5c5c5;
@@ -533,6 +532,9 @@
                     }
                 }
             }
+            .nav-buttons {
+                transform: translateY(-38px);
+            }
         }
     }
 }
@@ -604,6 +606,9 @@
                         }
                     }
                 }
+            }
+            .nav-buttons {
+                transform: translateY(-48px);
             }
         }
     }
