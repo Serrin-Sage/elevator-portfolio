@@ -49,5 +49,17 @@
         "demo_url": "",
         "frontend_url": "https://github.com/Serrin-Sage/hackathon-team4-frontend",
         "backend_url": "https://github.com/helenperham/hackathon-team4-backend"
+    },
+    {
+        "id": 4,
+        "title": "Twenty Q Multiplayer",
+        "images": [
+            {"url" : "/images/projectImages/TwentyQ.png"}
+        ],
+        "description": "Twenty Quesion multiplater modeled after AIM.",
+        "tech": "React.js, CSS, Ruby on Rails, Web Sockets",
+        "demo_url": "",
+        "frontend_url": "https://github.com/Serrin-Sage/twenty-q-client",
+        "backend_url": "https://github.com/Serrin-Sage/twenty-q-backend"
     }
 ]

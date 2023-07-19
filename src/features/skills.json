@@ -6,71 +6,86 @@
   },
   {
     "id": 2,
+    "name": "TypeScript",
+    "icon": "/images/icons/TypeScript.png"
+  },
+  {
+    "id": 3,
     "name": "HTML",
     "icon": "/images/icons/HTMLicon-removebg-previewW.png"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "CSS",
     "icon": "/images/icons/CSSiconW.png"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "SCSS",
     "icon": "/images/icons/SCSSiconW.png"
   },
   {
-    "id": 5,
+    "id": 6,
+    "name": "Tailwind",
+    "icon": "/images/icons/Tailwind.png"
+  },
+  {
+    "id": 7,
     "name": "React",
     "icon": "/images/icons/ReacticonW.png"
   },
   {
-    "id": 6,
+    "id": 8,
     "name": "Redux",
     "icon": "/images/icons/ReduxiconW.png"
   },
   {
-    "id": 7,
+    "id": 9,
+    "name": "Next.js",
+    "icon": "/images/icons/Nextjs.png"
+  },
+  {
+    "id": 10,
     "name": "C++",
     "icon": "/images/icons/C++IconW.png"
   },
   {
-    "id": 8,
+    "id": 11,
     "name": "Ruby",
     "icon": "/images/icons/RubyiconW.png"
   },
   {
-    "id": 9,
+    "id": 12,
     "name": "Ruby on Rails",
     "icon": "/images/icons/RailsiconW.png"
   },
   {
-    "id": 10,
+    "id": 13,
     "name": "Python",
     "icon": "/images/icons/PythoniconW.png"
   },
   {
-    "id": 11,
+    "id": 14,
     "name": "Django",
     "icon": "/images/icons/DjangoiconW.png"
   },
   {
-    "id": 12,
+    "id": 15,
     "name": "Flask",
     "icon": "/images/icons/FlaskiconW.png"
   },
   {
-    "id": 13,
+    "id": 16,
     "name": "PostgreSQL",
     "icon": "/images/icons/PostgresiconW.png"
   },
   {
-    "id": 14,
+    "id": 17,
     "name": "Git",
     "icon": "/images/icons/GiticonW.png"
   },
   {
-    "id": 15,
+    "id": 18,
     "name": "VS Code",
     "icon": "/images/icons/VSCodeIcon.png"
   }
